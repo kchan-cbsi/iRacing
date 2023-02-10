@@ -130,6 +130,8 @@ function buildArr($iter=21, $livery=null) {
         "Max Power",
     ];
 
+    shuffle($names);
+
     for($i=0; $i<$iter; $i++) {
         $driverNbr = rand(0, 99);
         while(in_array($driverNbr, $used)) {
