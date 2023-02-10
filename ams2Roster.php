@@ -48,7 +48,46 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null)
     return $_xml->asXML();
 }
 
+function buildArr($iter=21, $livery=null) {
+    $used = [];
+    $arr = [];
+    for($i=0; $i<$iter; $i++) {
+        $driverNbr = rand(0, 99);
+        while(in_array($driverNbr, $used)) {
+            $driverNbr = rand(0, 99);
+        }
 
+        $used[] = $driverNbr;
+        $driver = "driver_" . $driverNbr;
+        $temp = [
+            "country"                      => "USA",
+            "race_skill"                   => getRand(500, 1000),
+            "qualifying_skill"             => getRand(500, 1000),
+            "aggression"                   => getRand(500, 1000),
+            "defending"                    => getRand(500, 1000),
+            "stamina"                      => getRand(500, 1000),
+            "consistency"                  => getRand(500, 1000),
+            "start_reactions"              => getRand(500, 1000),
+            "tyre_management"              => getRand(500, 1000),
+            "fuel_management"              => getRand(500, 1000),
+            "blue_flag_conceding"          => 1.0,
+            "weather_tyre_changes"         => getRand(500, 1000),
+            "avoidance_of_mistakes"        => getRand(500, 1000),
+            "avoidance_of_forced_mistakes" => getRand(500, 1000),
+            "vehicle_reliability"          => getRand(780, 1000),
 
+        ];
+
+        $arr[$driver] = $temp;
+    }
+
+    return $arr;
+}
+
+function getRand($min=500, $max=1000) {
+    return rand($min, $max) / $max;
+}
+
+$ai = buildArr();
 $string = arrayToXml($ai, '<custom_ai_drivers/>');
 file_put_contents("myxmlfile.xml", $string);
