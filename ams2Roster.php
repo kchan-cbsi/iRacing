@@ -1,15 +1,73 @@
 <?php
 
 
-
-
 // Define a function that converts array to xml.
-function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null) {
+function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null, $carClass=null) {
     $_xml = $xml;
 
-    if (!empty($driverNbr)) {
-        $attr = 'Test Livery #' . $driverNbr;
-        $_xml->addAttribute('livery_name', $attr);
+    $liveries = [
+        "GT3" => [
+            "Nissan Nismo GT-R GT3 #201",
+            "Nissan Nismo GT-R GT3 #203",
+            "Nissan Nismo GT-R GT3 #205",
+            "Nissan Nismo GT-R GT3 #207",
+            "Nissan Nismo GT-R GT3 #209",
+            "Nissan Nismo GT-R GT3 #211",
+            "Nissan Nismo GT-R GT3 #212",
+            "BMW M6 GT3 #2",
+            "BMW M6 GT3 #11",
+            "BMW M6 GT3 #61",
+            "BMW M6 GT3 #83",
+            "BMW M6 GT3 #91",
+            "BMW M6 GT3 #96",
+            "Mercedes-AMG #01",
+            "Mercedes-AMG #09",
+            "Mercedes-AMG #60",
+            "Mercedes-AMG #77",
+            "Mercedes-AMG #81",
+            "Mercedes-AMG #85",
+            "Mercedes-AMG #99",
+            "Porsche 911 GT3 R #05",
+            "Porsche 911 GT3 R #10",
+            "Porsche 911 GT3 R #17",
+            "Porsche 911 GT3 R #41",
+            "Porsche 911 GT3 R #75",
+            "Porsche 911 GT3 R #82",
+            "Porsche 911 GT3 R #93",
+            "McLaren 720S GT3 #04",
+            "McLaren 720S GT3 #12",
+            "McLaren 720S GT3 #27",
+            "McLaren 720S GT3 #90",
+            "McLaren 720S GT3 #92",
+            "McLaren 720S GT3 #94",
+        ],
+        "F-Ultimate_G2" => [
+            "Team ViryStone #15",
+            "Bond G.P. #3",
+            "Bond G.P. #5",
+            "DNA-US #4",
+            "DNA-US #7",
+            "Full Force Racing #8",
+            "McLean G.P. #22",
+            "McLean G.P. #32",
+            "energyX Faenza #98",
+            "Strike G.P. #63",
+            "Strike G.P. #85",
+        ],
+        "Cat_Academy" => [
+            "Caterham Academy - Tim Childress #00",
+            "Caterham Academy - Jim Elvery #03",
+            "Caterham Academy - Dave Ripley #05",
+            "Caterham Academy - Ben Gilles #05",
+            "Caterham Academy - Mike OReilly #33",
+            "Caterham Academy - Erick Tyler #41",
+            "Caterham Academy - Darin Phillips #99",
+        ]
+    ];
+
+    if (!empty($driverNbr) && !empty($carClass)) {
+        shuffle($liveries[$carClass]);
+        $_xml->addAttribute('livery_name', $liveries[$carClass][0]);
     }
 
     // If there is no Root Element then insert root
@@ -31,7 +89,7 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null)
             }
 
             // Call function for nested array
-            arrayToXml($v, $k, $_xml->addChild($k), $nbr);
+            arrayToXml($v, $k, $_xml->addChild($k), $nbr, $carClass);
 
         }
 
@@ -79,7 +137,7 @@ function buildArr($iter=21, $livery=null) {
         }
 
         $used[] = $driverNbr;
-        $driver = "driver_" . $i+1;
+        $driver = "driver_" . $driverNbr;
         $temp = [
             "name"                         => $names[$i],
             "country"                      => "USA",
@@ -110,6 +168,12 @@ function getRand($min=500, $max=1000) {
     return rand($min, $max) / $max;
 }
 
+if (empty($argv[1])) {
+    $carClass = 'GT3';
+} else {
+    $carClass = $argv[1];
+}
+
 $ai = buildArr();
-$string = arrayToXml($ai, '<custom_ai_drivers/>');
-file_put_contents("myxmlfile.xml", $string);
+$string = arrayToXml($ai, '<custom_ai_drivers/>', null, null, $carClass);
+file_put_contents($carClass .".xml", $string);

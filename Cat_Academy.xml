@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom_ai_drivers>
+    <driver livery_name="Caterham Academy - Dave Ripley #05">
+        <name>Tony Stewart</name>
+        <country>USA</country>
+        <race_skill>0.736</race_skill>
+        <qualifying_skill>0.516</qualifying_skill>
+        <aggression>0.643</aggression>
+        <defending>0.722</defending>
+        <stamina>0.691</stamina>
+        <consistency>0.521</consistency>
+        <start_reactions>0.778</start_reactions>
+        <tyre_management>0.81</tyre_management>
+        <fuel_management>0.857</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.811</weather_tyre_changes>
+        <avoidance_of_mistakes>0.565</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.924</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.967</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Ben Gilles #05">
+        <name>Jeff Gordon</name>
+        <country>USA</country>
+        <race_skill>0.573</race_skill>
+        <qualifying_skill>0.565</qualifying_skill>
+        <aggression>0.689</aggression>
+        <defending>0.577</defending>
+        <stamina>0.974</stamina>
+        <consistency>0.511</consistency>
+        <start_reactions>0.97</start_reactions>
+        <tyre_management>0.827</tyre_management>
+        <fuel_management>0.984</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.558</weather_tyre_changes>
+        <avoidance_of_mistakes>0.588</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.644</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.872</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Mike OReilly #33">
+        <name>Kyle Larson</name>
+        <country>USA</country>
+        <race_skill>0.612</race_skill>
+        <qualifying_skill>0.508</qualifying_skill>
+        <aggression>0.868</aggression>
+        <defending>0.941</defending>
+        <stamina>0.575</stamina>
+        <consistency>0.723</consistency>
+        <start_reactions>0.871</start_reactions>
+        <tyre_management>0.853</tyre_management>
+        <fuel_management>0.598</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.878</weather_tyre_changes>
+        <avoidance_of_mistakes>0.505</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.796</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.809</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Mike OReilly #33">
+        <name>Lewis Hamilton</name>
+        <country>USA</country>
+        <race_skill>0.559</race_skill>
+        <qualifying_skill>0.977</qualifying_skill>
+        <aggression>0.966</aggression>
+        <defending>0.759</defending>
+        <stamina>0.901</stamina>
+        <consistency>0.967</consistency>
+        <start_reactions>0.529</start_reactions>
+        <tyre_management>0.587</tyre_management>
+        <fuel_management>0.752</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.604</weather_tyre_changes>
+        <avoidance_of_mistakes>0.816</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.831</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.938</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Dave Ripley #05">
+        <name>Jeff Burton</name>
+        <country>USA</country>
+        <race_skill>0.807</race_skill>
+        <qualifying_skill>0.653</qualifying_skill>
+        <aggression>0.847</aggression>
+        <defending>0.971</defending>
+        <stamina>0.62</stamina>
+        <consistency>0.767</consistency>
+        <start_reactions>0.855</start_reactions>
+        <tyre_management>0.683</tyre_management>
+        <fuel_management>0.884</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.632</weather_tyre_changes>
+        <avoidance_of_mistakes>0.831</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.791</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.991</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Erick Tyler #41">
+        <name>Lando Norris</name>
+        <country>USA</country>
+        <race_skill>0.83</race_skill>
+        <qualifying_skill>0.991</qualifying_skill>
+        <aggression>0.58</aggression>
+        <defending>0.95</defending>
+        <stamina>0.606</stamina>
+        <consistency>0.589</consistency>
+        <start_reactions>0.92</start_reactions>
+        <tyre_management>0.993</tyre_management>
+        <fuel_management>0.977</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.54</weather_tyre_changes>
+        <avoidance_of_mistakes>0.693</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.57</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.961</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Erick Tyler #41">
+        <name>Nera Marti</name>
+        <country>USA</country>
+        <race_skill>0.549</race_skill>
+        <qualifying_skill>0.744</qualifying_skill>
+        <aggression>0.882</aggression>
+        <defending>0.595</defending>
+        <stamina>0.748</stamina>
+        <consistency>0.813</consistency>
+        <start_reactions>0.991</start_reactions>
+        <tyre_management>0.96</tyre_management>
+        <fuel_management>0.971</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.752</weather_tyre_changes>
+        <avoidance_of_mistakes>0.539</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.527</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.93</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Tim Childress #00">
+        <name>Kennedy Chan</name>
+        <country>USA</country>
+        <race_skill>0.543</race_skill>
+        <qualifying_skill>0.51</qualifying_skill>
+        <aggression>0.865</aggression>
+        <defending>0.907</defending>
+        <stamina>0.726</stamina>
+        <consistency>0.961</consistency>
+        <start_reactions>0.508</start_reactions>
+        <tyre_management>0.941</tyre_management>
+        <fuel_management>0.772</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.637</weather_tyre_changes>
+        <avoidance_of_mistakes>0.929</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.562</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.982</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Jim Elvery #03">
+        <name>Lea Matic</name>
+        <country>USA</country>
+        <race_skill>0.696</race_skill>
+        <qualifying_skill>0.806</qualifying_skill>
+        <aggression>0.644</aggression>
+        <defending>0.993</defending>
+        <stamina>0.779</stamina>
+        <consistency>0.79</consistency>
+        <start_reactions>0.91</start_reactions>
+        <tyre_management>0.893</tyre_management>
+        <fuel_management>0.694</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.934</weather_tyre_changes>
+        <avoidance_of_mistakes>0.963</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.566</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.933</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Erick Tyler #41">
+        <name>Phoebe Chan</name>
+        <country>USA</country>
+        <race_skill>0.657</race_skill>
+        <qualifying_skill>0.66</qualifying_skill>
+        <aggression>0.866</aggression>
+        <defending>0.809</defending>
+        <stamina>0.911</stamina>
+        <consistency>0.865</consistency>
+        <start_reactions>0.907</start_reactions>
+        <tyre_management>0.672</tyre_management>
+        <fuel_management>0.635</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.781</weather_tyre_changes>
+        <avoidance_of_mistakes>0.547</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.503</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.795</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Erick Tyler #41">
+        <name>Butters Chan</name>
+        <country>USA</country>
+        <race_skill>0.665</race_skill>
+        <qualifying_skill>0.958</qualifying_skill>
+        <aggression>0.837</aggression>
+        <defending>0.974</defending>
+        <stamina>0.76</stamina>
+        <consistency>0.792</consistency>
+        <start_reactions>0.934</start_reactions>
+        <tyre_management>0.52</tyre_management>
+        <fuel_management>0.527</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.782</weather_tyre_changes>
+        <avoidance_of_mistakes>0.524</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.782</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.834</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Tim Childress #00">
+        <name>Tiny Chan</name>
+        <country>USA</country>
+        <race_skill>0.92</race_skill>
+        <qualifying_skill>0.82</qualifying_skill>
+        <aggression>0.726</aggression>
+        <defending>0.533</defending>
+        <stamina>0.929</stamina>
+        <consistency>0.857</consistency>
+        <start_reactions>0.517</start_reactions>
+        <tyre_management>0.583</tyre_management>
+        <fuel_management>0.652</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.502</weather_tyre_changes>
+        <avoidance_of_mistakes>0.709</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.769</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.833</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Dave Ripley #05">
+        <name>Danica Patrick</name>
+        <country>USA</country>
+        <race_skill>0.942</race_skill>
+        <qualifying_skill>0.501</qualifying_skill>
+        <aggression>0.523</aggression>
+        <defending>0.939</defending>
+        <stamina>0.933</stamina>
+        <consistency>0.77</consistency>
+        <start_reactions>0.628</start_reactions>
+        <tyre_management>0.681</tyre_management>
+        <fuel_management>0.963</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.612</weather_tyre_changes>
+        <avoidance_of_mistakes>0.759</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.652</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.88</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Erick Tyler #41">
+        <name>Max Verstappen</name>
+        <country>USA</country>
+        <race_skill>0.587</race_skill>
+        <qualifying_skill>0.971</qualifying_skill>
+        <aggression>0.749</aggression>
+        <defending>0.598</defending>
+        <stamina>0.778</stamina>
+        <consistency>0.957</consistency>
+        <start_reactions>0.543</start_reactions>
+        <tyre_management>0.917</tyre_management>
+        <fuel_management>0.656</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.844</weather_tyre_changes>
+        <avoidance_of_mistakes>0.587</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.978</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.806</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Mike OReilly #33">
+        <name>Sergio Perez</name>
+        <country>USA</country>
+        <race_skill>0.578</race_skill>
+        <qualifying_skill>0.896</qualifying_skill>
+        <aggression>0.724</aggression>
+        <defending>0.883</defending>
+        <stamina>0.888</stamina>
+        <consistency>0.615</consistency>
+        <start_reactions>0.556</start_reactions>
+        <tyre_management>0.648</tyre_management>
+        <fuel_management>0.954</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.722</weather_tyre_changes>
+        <avoidance_of_mistakes>0.55</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.972</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.788</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Tim Childress #00">
+        <name>Zhou Guanyu</name>
+        <country>USA</country>
+        <race_skill>0.598</race_skill>
+        <qualifying_skill>0.719</qualifying_skill>
+        <aggression>0.94</aggression>
+        <defending>0.823</defending>
+        <stamina>0.969</stamina>
+        <consistency>0.515</consistency>
+        <start_reactions>0.7</start_reactions>
+        <tyre_management>0.664</tyre_management>
+        <fuel_management>0.792</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>1</weather_tyre_changes>
+        <avoidance_of_mistakes>0.976</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.665</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.895</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Dave Ripley #05">
+        <name>Alexander Albon</name>
+        <country>USA</country>
+        <race_skill>0.637</race_skill>
+        <qualifying_skill>0.794</qualifying_skill>
+        <aggression>0.586</aggression>
+        <defending>0.872</defending>
+        <stamina>0.5</stamina>
+        <consistency>0.853</consistency>
+        <start_reactions>0.846</start_reactions>
+        <tyre_management>0.673</tyre_management>
+        <fuel_management>0.701</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.685</weather_tyre_changes>
+        <avoidance_of_mistakes>0.556</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.965</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.825</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Tim Childress #00">
+        <name>Dale Earnhardt Jr.</name>
+        <country>USA</country>
+        <race_skill>0.866</race_skill>
+        <qualifying_skill>0.836</qualifying_skill>
+        <aggression>0.976</aggression>
+        <defending>0.98</defending>
+        <stamina>0.742</stamina>
+        <consistency>0.834</consistency>
+        <start_reactions>0.927</start_reactions>
+        <tyre_management>0.507</tyre_management>
+        <fuel_management>0.867</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.812</weather_tyre_changes>
+        <avoidance_of_mistakes>0.61</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.528</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.856</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Darin Phillips #99">
+        <name>Denny Hamlin</name>
+        <country>USA</country>
+        <race_skill>0.553</race_skill>
+        <qualifying_skill>0.896</qualifying_skill>
+        <aggression>0.563</aggression>
+        <defending>0.698</defending>
+        <stamina>0.884</stamina>
+        <consistency>0.997</consistency>
+        <start_reactions>0.94</start_reactions>
+        <tyre_management>0.512</tyre_management>
+        <fuel_management>0.855</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.798</weather_tyre_changes>
+        <avoidance_of_mistakes>0.963</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.85</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.842</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Tim Childress #00">
+        <name>Kevin Harvik</name>
+        <country>USA</country>
+        <race_skill>0.999</race_skill>
+        <qualifying_skill>0.85</qualifying_skill>
+        <aggression>0.639</aggression>
+        <defending>0.552</defending>
+        <stamina>0.605</stamina>
+        <consistency>0.931</consistency>
+        <start_reactions>0.843</start_reactions>
+        <tyre_management>0.884</tyre_management>
+        <fuel_management>0.813</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.726</weather_tyre_changes>
+        <avoidance_of_mistakes>0.775</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.698</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.847</vehicle_reliability>
+    </driver>
+    <driver livery_name="Caterham Academy - Ben Gilles #05">
+        <name>Max Power</name>
+        <country>USA</country>
+        <race_skill>0.505</race_skill>
+        <qualifying_skill>0.623</qualifying_skill>
+        <aggression>0.696</aggression>
+        <defending>0.508</defending>
+        <stamina>0.831</stamina>
+        <consistency>0.907</consistency>
+        <start_reactions>0.669</start_reactions>
+        <tyre_management>0.586</tyre_management>
+        <fuel_management>0.678</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.892</weather_tyre_changes>
+        <avoidance_of_mistakes>0.683</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.612</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.881</vehicle_reliability>
+    </driver>
+</custom_ai_drivers>
