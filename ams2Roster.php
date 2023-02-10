@@ -1,10 +1,5 @@
 <?php
-$ai = [
-        "driver_2" => [
-            "country" => "USA",
-            "race_skill" => rand(500, 1000) / 1000
-        ]
-];
+
 
 
 
@@ -28,13 +23,15 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null)
 
         // If there is nested array then
         if (is_array($v)) {
+            //adding driver livery attribute
             if (strpos($k, "driver_") !== false) {
                 $driverParts = explode("_", $k);
                 $k = 'driver';
                 $nbr = $driverParts[1];
             }
-                // Call function for nested array
-                arrayToXml($v, $k, $_xml->addChild($k), $nbr);
+
+            // Call function for nested array
+            arrayToXml($v, $k, $_xml->addChild($k), $nbr);
 
         }
 
@@ -50,7 +47,31 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null)
 
 function buildArr($iter=21, $livery=null) {
     $used = [];
-    $arr = [];
+    $arr  = [];
+    $names = [
+        "Tony Stewart",
+        "Jeff Gordon",
+        "Kyle Larson",
+        "Lewis Hamilton",
+        "Jeff Burton",
+        "Lando Norris",
+        "Nera Marti",
+        "Kennedy Chan",
+        "Lea Matic",
+        "Phoebe Chan",
+        "Butters Chan",
+        "Tiny Chan",
+        "Danica Patrick",
+        "Max Verstappen",
+        "Sergio Perez", //15
+        "Zhou Guanyu",
+        "Alexander Albon",
+        "Dale Earnhardt Jr.",
+        "Denny Hamlin",
+        "Kevin Harvik",
+        "Max Power",
+    ];
+
     for($i=0; $i<$iter; $i++) {
         $driverNbr = rand(0, 99);
         while(in_array($driverNbr, $used)) {
@@ -58,8 +79,9 @@ function buildArr($iter=21, $livery=null) {
         }
 
         $used[] = $driverNbr;
-        $driver = "driver_" . $driverNbr;
+        $driver = "driver_" . $i+1;
         $temp = [
+            "name"                         => $names[$i],
             "country"                      => "USA",
             "race_skill"                   => getRand(500, 1000),
             "qualifying_skill"             => getRand(500, 1000),
