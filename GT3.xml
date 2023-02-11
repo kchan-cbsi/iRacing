@@ -1,381 +1,381 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <custom_ai_drivers>
     <driver livery_name="Nissan Nismo GT-R GT3 #201">
-        <name>Max Power</name>
-        <country>USA</country>
-        <race_skill>0.834</race_skill>
-        <qualifying_skill>0.82</qualifying_skill>
-        <aggression>0.504</aggression>
-        <defending>0.675</defending>
-        <stamina>0.581</stamina>
-        <consistency>0.52</consistency>
-        <start_reactions>0.779</start_reactions>
-        <tyre_management>0.933</tyre_management>
-        <fuel_management>0.558</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>1</weather_tyre_changes>
-        <avoidance_of_mistakes>0.785</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.761</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.799</vehicle_reliability>
-    </driver>
-    <driver livery_name="Nissan Nismo GT-R GT3 #203">
-        <name>Kyle Larson</name>
-        <country>USA</country>
-        <race_skill>0.853</race_skill>
-        <qualifying_skill>0.58</qualifying_skill>
-        <aggression>0.964</aggression>
-        <defending>0.714</defending>
-        <stamina>0.936</stamina>
-        <consistency>0.79</consistency>
-        <start_reactions>0.555</start_reactions>
-        <tyre_management>0.696</tyre_management>
-        <fuel_management>0.55</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.933</weather_tyre_changes>
-        <avoidance_of_mistakes>0.996</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.644</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.783</vehicle_reliability>
-    </driver>
-    <driver livery_name="Nissan Nismo GT-R GT3 #205">
-        <name>Jeff Burton</name>
-        <country>USA</country>
-        <race_skill>0.573</race_skill>
-        <qualifying_skill>0.708</qualifying_skill>
-        <aggression>0.603</aggression>
-        <defending>0.565</defending>
-        <stamina>0.778</stamina>
-        <consistency>0.799</consistency>
-        <start_reactions>0.514</start_reactions>
-        <tyre_management>0.591</tyre_management>
-        <fuel_management>0.925</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.501</weather_tyre_changes>
-        <avoidance_of_mistakes>0.774</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.62</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.901</vehicle_reliability>
-    </driver>
-    <driver livery_name="Nissan Nismo GT-R GT3 #207">
         <name>Kennedy Chan</name>
         <country>USA</country>
-        <race_skill>0.624</race_skill>
-        <qualifying_skill>0.694</qualifying_skill>
-        <aggression>0.66</aggression>
-        <defending>0.578</defending>
-        <stamina>0.679</stamina>
-        <consistency>0.988</consistency>
-        <start_reactions>0.921</start_reactions>
-        <tyre_management>0.656</tyre_management>
-        <fuel_management>0.756</fuel_management>
+        <race_skill>0.823</race_skill>
+        <qualifying_skill>0.9</qualifying_skill>
+        <aggression>0.738</aggression>
+        <defending>0.873</defending>
+        <stamina>0.868</stamina>
+        <consistency>0.641</consistency>
+        <start_reactions>0.798</start_reactions>
+        <tyre_management>0.538</tyre_management>
+        <fuel_management>0.562</fuel_management>
         <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.574</weather_tyre_changes>
-        <avoidance_of_mistakes>0.697</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.69</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.835</vehicle_reliability>
-    </driver>
-    <driver livery_name="Nissan Nismo GT-R GT3 #209">
-        <name>Jeff Gordon</name>
-        <country>USA</country>
-        <race_skill>0.643</race_skill>
-        <qualifying_skill>0.786</qualifying_skill>
-        <aggression>0.999</aggression>
-        <defending>0.614</defending>
-        <stamina>0.723</stamina>
-        <consistency>0.555</consistency>
-        <start_reactions>0.771</start_reactions>
-        <tyre_management>1</tyre_management>
-        <fuel_management>0.559</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.896</weather_tyre_changes>
-        <avoidance_of_mistakes>0.685</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.653</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.985</vehicle_reliability>
-    </driver>
-    <driver livery_name="Nissan Nismo GT-R GT3 #211">
-        <name>Lando Norris</name>
-        <country>USA</country>
-        <race_skill>0.672</race_skill>
-        <qualifying_skill>0.853</qualifying_skill>
-        <aggression>0.657</aggression>
-        <defending>0.678</defending>
-        <stamina>0.801</stamina>
-        <consistency>0.578</consistency>
-        <start_reactions>0.835</start_reactions>
-        <tyre_management>0.933</tyre_management>
-        <fuel_management>0.705</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.939</weather_tyre_changes>
-        <avoidance_of_mistakes>0.956</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.869</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.794</vehicle_reliability>
-    </driver>
-    <driver livery_name="Nissan Nismo GT-R GT3 #212">
-        <name>Danica Patrick</name>
-        <country>USA</country>
-        <race_skill>0.844</race_skill>
-        <qualifying_skill>0.505</qualifying_skill>
-        <aggression>0.625</aggression>
-        <defending>0.637</defending>
-        <stamina>0.943</stamina>
-        <consistency>0.657</consistency>
-        <start_reactions>0.743</start_reactions>
-        <tyre_management>0.867</tyre_management>
-        <fuel_management>0.794</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.695</weather_tyre_changes>
-        <avoidance_of_mistakes>0.526</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.753</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.782</vehicle_reliability>
+        <weather_tyre_changes>0.878</weather_tyre_changes>
+        <avoidance_of_mistakes>0.645</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.624</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.976</vehicle_reliability>
     </driver>
     <driver livery_name="BMW M6 GT3 #2">
-        <name>Butters Chan</name>
-        <country>USA</country>
-        <race_skill>0.884</race_skill>
-        <qualifying_skill>0.931</qualifying_skill>
-        <aggression>0.781</aggression>
-        <defending>0.815</defending>
-        <stamina>0.524</stamina>
-        <consistency>0.884</consistency>
-        <start_reactions>0.534</start_reactions>
-        <tyre_management>0.913</tyre_management>
-        <fuel_management>0.513</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.977</weather_tyre_changes>
-        <avoidance_of_mistakes>0.899</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.77</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.822</vehicle_reliability>
-    </driver>
-    <driver livery_name="BMW M6 GT3 #11">
-        <name>Tiny Chan</name>
-        <country>USA</country>
-        <race_skill>0.582</race_skill>
-        <qualifying_skill>0.939</qualifying_skill>
-        <aggression>0.518</aggression>
-        <defending>0.842</defending>
-        <stamina>0.842</stamina>
-        <consistency>0.857</consistency>
-        <start_reactions>0.516</start_reactions>
-        <tyre_management>0.666</tyre_management>
-        <fuel_management>0.835</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.93</weather_tyre_changes>
-        <avoidance_of_mistakes>0.755</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.634</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.854</vehicle_reliability>
-    </driver>
-    <driver livery_name="BMW M6 GT3 #61">
-        <name>Tony Stewart</name>
-        <country>USA</country>
-        <race_skill>0.78</race_skill>
-        <qualifying_skill>0.592</qualifying_skill>
-        <aggression>0.819</aggression>
-        <defending>0.82</defending>
-        <stamina>0.688</stamina>
-        <consistency>0.55</consistency>
-        <start_reactions>0.682</start_reactions>
-        <tyre_management>0.969</tyre_management>
-        <fuel_management>0.696</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.853</weather_tyre_changes>
-        <avoidance_of_mistakes>0.555</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.685</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.824</vehicle_reliability>
-    </driver>
-    <driver livery_name="BMW M6 GT3 #83">
-        <name>Max Verstappen</name>
-        <country>USA</country>
-        <race_skill>0.729</race_skill>
-        <qualifying_skill>0.791</qualifying_skill>
-        <aggression>0.867</aggression>
-        <defending>0.911</defending>
-        <stamina>0.884</stamina>
-        <consistency>0.575</consistency>
-        <start_reactions>0.893</start_reactions>
-        <tyre_management>0.956</tyre_management>
-        <fuel_management>0.821</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.892</weather_tyre_changes>
-        <avoidance_of_mistakes>0.799</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.941</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.931</vehicle_reliability>
-    </driver>
-    <driver livery_name="BMW M6 GT3 #91">
-        <name>Kevin Harvik</name>
-        <country>USA</country>
-        <race_skill>0.914</race_skill>
-        <qualifying_skill>0.702</qualifying_skill>
-        <aggression>0.533</aggression>
-        <defending>0.577</defending>
-        <stamina>0.64</stamina>
-        <consistency>0.788</consistency>
-        <start_reactions>0.729</start_reactions>
-        <tyre_management>0.806</tyre_management>
-        <fuel_management>0.824</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.744</weather_tyre_changes>
-        <avoidance_of_mistakes>0.679</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.73</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.97</vehicle_reliability>
-    </driver>
-    <driver livery_name="BMW M6 GT3 #96">
-        <name>Nera Marti</name>
-        <country>USA</country>
-        <race_skill>0.71</race_skill>
-        <qualifying_skill>0.945</qualifying_skill>
-        <aggression>0.924</aggression>
-        <defending>0.914</defending>
-        <stamina>0.777</stamina>
-        <consistency>0.926</consistency>
-        <start_reactions>0.869</start_reactions>
-        <tyre_management>0.508</tyre_management>
-        <fuel_management>0.765</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.976</weather_tyre_changes>
-        <avoidance_of_mistakes>0.998</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.546</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.832</vehicle_reliability>
-    </driver>
-    <driver livery_name="Mercedes-AMG #01">
         <name>Dale Earnhardt Jr.</name>
         <country>USA</country>
-        <race_skill>0.613</race_skill>
+        <race_skill>0.769</race_skill>
         <qualifying_skill>0.576</qualifying_skill>
-        <aggression>0.625</aggression>
-        <defending>0.737</defending>
-        <stamina>0.677</stamina>
-        <consistency>0.561</consistency>
-        <start_reactions>0.964</start_reactions>
-        <tyre_management>0.816</tyre_management>
-        <fuel_management>0.571</fuel_management>
+        <aggression>0.642</aggression>
+        <defending>0.513</defending>
+        <stamina>0.907</stamina>
+        <consistency>0.992</consistency>
+        <start_reactions>0.52</start_reactions>
+        <tyre_management>0.893</tyre_management>
+        <fuel_management>0.616</fuel_management>
         <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.959</weather_tyre_changes>
-        <avoidance_of_mistakes>0.832</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.584</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.97</vehicle_reliability>
+        <weather_tyre_changes>0.798</weather_tyre_changes>
+        <avoidance_of_mistakes>0.632</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.509</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.858</vehicle_reliability>
     </driver>
-    <driver livery_name="Mercedes-AMG #09">
-        <name>Denny Hamlin</name>
+    <driver livery_name="Mercedes-AMG #01">
+        <name>Max Verstappen</name>
         <country>USA</country>
-        <race_skill>0.773</race_skill>
-        <qualifying_skill>0.864</qualifying_skill>
-        <aggression>0.557</aggression>
-        <defending>0.893</defending>
-        <stamina>0.739</stamina>
-        <consistency>0.509</consistency>
-        <start_reactions>0.653</start_reactions>
-        <tyre_management>0.537</tyre_management>
-        <fuel_management>0.935</fuel_management>
+        <race_skill>0.71</race_skill>
+        <qualifying_skill>0.821</qualifying_skill>
+        <aggression>0.842</aggression>
+        <defending>0.831</defending>
+        <stamina>0.74</stamina>
+        <consistency>0.557</consistency>
+        <start_reactions>0.753</start_reactions>
+        <tyre_management>0.679</tyre_management>
+        <fuel_management>0.691</fuel_management>
         <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.617</weather_tyre_changes>
-        <avoidance_of_mistakes>0.76</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.845</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.813</vehicle_reliability>
-    </driver>
-    <driver livery_name="Mercedes-AMG #60">
-        <name>Sergio Perez</name>
-        <country>USA</country>
-        <race_skill>0.578</race_skill>
-        <qualifying_skill>0.7</qualifying_skill>
-        <aggression>0.554</aggression>
-        <defending>0.844</defending>
-        <stamina>0.515</stamina>
-        <consistency>0.676</consistency>
-        <start_reactions>0.906</start_reactions>
-        <tyre_management>0.798</tyre_management>
-        <fuel_management>0.641</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.619</weather_tyre_changes>
-        <avoidance_of_mistakes>0.576</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.519</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.982</vehicle_reliability>
-    </driver>
-    <driver livery_name="Mercedes-AMG #77">
-        <name>Alexander Albon</name>
-        <country>USA</country>
-        <race_skill>0.823</race_skill>
-        <qualifying_skill>0.54</qualifying_skill>
-        <aggression>0.584</aggression>
-        <defending>1</defending>
-        <stamina>0.94</stamina>
-        <consistency>0.635</consistency>
-        <start_reactions>0.785</start_reactions>
-        <tyre_management>0.602</tyre_management>
-        <fuel_management>0.627</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.902</weather_tyre_changes>
-        <avoidance_of_mistakes>0.895</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.979</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.883</vehicle_reliability>
-    </driver>
-    <driver livery_name="Mercedes-AMG #81">
-        <name>Phoebe Chan</name>
-        <country>USA</country>
-        <race_skill>0.99</race_skill>
-        <qualifying_skill>0.593</qualifying_skill>
-        <aggression>0.857</aggression>
-        <defending>0.64</defending>
-        <stamina>0.637</stamina>
-        <consistency>0.698</consistency>
-        <start_reactions>0.672</start_reactions>
-        <tyre_management>0.929</tyre_management>
-        <fuel_management>0.988</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.894</weather_tyre_changes>
-        <avoidance_of_mistakes>0.564</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.915</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.846</vehicle_reliability>
-    </driver>
-    <driver livery_name="Mercedes-AMG #85">
-        <name>Lea Matic</name>
-        <country>USA</country>
-        <race_skill>0.863</race_skill>
-        <qualifying_skill>0.884</qualifying_skill>
-        <aggression>0.723</aggression>
-        <defending>0.695</defending>
-        <stamina>0.66</stamina>
-        <consistency>0.9</consistency>
-        <start_reactions>0.774</start_reactions>
-        <tyre_management>0.534</tyre_management>
-        <fuel_management>0.71</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.997</weather_tyre_changes>
-        <avoidance_of_mistakes>0.923</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.785</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.965</vehicle_reliability>
-    </driver>
-    <driver livery_name="Mercedes-AMG #99">
-        <name>Zhou Guanyu</name>
-        <country>USA</country>
-        <race_skill>0.636</race_skill>
-        <qualifying_skill>0.761</qualifying_skill>
-        <aggression>0.807</aggression>
-        <defending>0.579</defending>
-        <stamina>0.631</stamina>
-        <consistency>0.97</consistency>
-        <start_reactions>0.972</start_reactions>
-        <tyre_management>0.71</tyre_management>
-        <fuel_management>0.5</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.716</weather_tyre_changes>
-        <avoidance_of_mistakes>0.987</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.81</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.816</vehicle_reliability>
+        <weather_tyre_changes>0.628</weather_tyre_changes>
+        <avoidance_of_mistakes>0.585</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.714</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.786</vehicle_reliability>
     </driver>
     <driver livery_name="Porsche 911 GT3 R #05">
         <name>Lewis Hamilton</name>
         <country>USA</country>
-        <race_skill>0.717</race_skill>
-        <qualifying_skill>0.998</qualifying_skill>
-        <aggression>0.563</aggression>
-        <defending>0.918</defending>
-        <stamina>0.579</stamina>
-        <consistency>0.871</consistency>
-        <start_reactions>0.58</start_reactions>
-        <tyre_management>0.623</tyre_management>
-        <fuel_management>0.661</fuel_management>
+        <race_skill>0.529</race_skill>
+        <qualifying_skill>0.99</qualifying_skill>
+        <aggression>0.617</aggression>
+        <defending>0.903</defending>
+        <stamina>0.957</stamina>
+        <consistency>0.614</consistency>
+        <start_reactions>0.821</start_reactions>
+        <tyre_management>0.865</tyre_management>
+        <fuel_management>0.779</fuel_management>
         <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.951</weather_tyre_changes>
-        <avoidance_of_mistakes>0.608</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.801</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.902</vehicle_reliability>
+        <weather_tyre_changes>0.993</weather_tyre_changes>
+        <avoidance_of_mistakes>0.628</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.75</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.888</vehicle_reliability>
+    </driver>
+    <driver livery_name="McLaren 720S GT3 #04">
+        <name>Max Power</name>
+        <country>USA</country>
+        <race_skill>0.839</race_skill>
+        <qualifying_skill>0.84</qualifying_skill>
+        <aggression>0.633</aggression>
+        <defending>0.81</defending>
+        <stamina>0.681</stamina>
+        <consistency>0.977</consistency>
+        <start_reactions>0.894</start_reactions>
+        <tyre_management>0.845</tyre_management>
+        <fuel_management>0.559</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.809</weather_tyre_changes>
+        <avoidance_of_mistakes>0.504</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.995</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.811</vehicle_reliability>
+    </driver>
+    <driver livery_name="Nissan Nismo GT-R GT3 #203">
+        <name>Zhou Guanyu</name>
+        <country>USA</country>
+        <race_skill>0.527</race_skill>
+        <qualifying_skill>0.868</qualifying_skill>
+        <aggression>0.702</aggression>
+        <defending>0.596</defending>
+        <stamina>0.876</stamina>
+        <consistency>0.622</consistency>
+        <start_reactions>0.848</start_reactions>
+        <tyre_management>0.674</tyre_management>
+        <fuel_management>0.933</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.589</weather_tyre_changes>
+        <avoidance_of_mistakes>0.583</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.859</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.974</vehicle_reliability>
+    </driver>
+    <driver livery_name="BMW M6 GT3 #11">
+        <name>Nera Marti</name>
+        <country>USA</country>
+        <race_skill>0.869</race_skill>
+        <qualifying_skill>0.618</qualifying_skill>
+        <aggression>0.812</aggression>
+        <defending>0.55</defending>
+        <stamina>0.822</stamina>
+        <consistency>0.645</consistency>
+        <start_reactions>0.594</start_reactions>
+        <tyre_management>0.75</tyre_management>
+        <fuel_management>0.617</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.993</weather_tyre_changes>
+        <avoidance_of_mistakes>0.979</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.558</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.954</vehicle_reliability>
+    </driver>
+    <driver livery_name="Mercedes-AMG #09">
+        <name>Jeff Burton</name>
+        <country>USA</country>
+        <race_skill>0.679</race_skill>
+        <qualifying_skill>0.591</qualifying_skill>
+        <aggression>0.954</aggression>
+        <defending>0.907</defending>
+        <stamina>0.641</stamina>
+        <consistency>0.822</consistency>
+        <start_reactions>0.825</start_reactions>
+        <tyre_management>0.579</tyre_management>
+        <fuel_management>0.776</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.55</weather_tyre_changes>
+        <avoidance_of_mistakes>0.767</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.862</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.889</vehicle_reliability>
+    </driver>
+    <driver livery_name="Porsche 911 GT3 R #10">
+        <name>Phoebe Chan</name>
+        <country>USA</country>
+        <race_skill>0.576</race_skill>
+        <qualifying_skill>0.521</qualifying_skill>
+        <aggression>0.634</aggression>
+        <defending>0.6</defending>
+        <stamina>0.944</stamina>
+        <consistency>0.555</consistency>
+        <start_reactions>0.714</start_reactions>
+        <tyre_management>0.627</tyre_management>
+        <fuel_management>0.951</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.883</weather_tyre_changes>
+        <avoidance_of_mistakes>0.845</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.914</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.784</vehicle_reliability>
+    </driver>
+    <driver livery_name="McLaren 720S GT3 #12">
+        <name>Butters Chan</name>
+        <country>USA</country>
+        <race_skill>0.804</race_skill>
+        <qualifying_skill>0.661</qualifying_skill>
+        <aggression>0.928</aggression>
+        <defending>0.5</defending>
+        <stamina>0.915</stamina>
+        <consistency>0.71</consistency>
+        <start_reactions>0.863</start_reactions>
+        <tyre_management>0.779</tyre_management>
+        <fuel_management>0.573</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.695</weather_tyre_changes>
+        <avoidance_of_mistakes>0.581</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.772</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.855</vehicle_reliability>
+    </driver>
+    <driver livery_name="Nissan Nismo GT-R GT3 #205">
+        <name>Tony Stewart</name>
+        <country>USA</country>
+        <race_skill>0.545</race_skill>
+        <qualifying_skill>0.827</qualifying_skill>
+        <aggression>0.554</aggression>
+        <defending>0.714</defending>
+        <stamina>0.748</stamina>
+        <consistency>0.617</consistency>
+        <start_reactions>0.533</start_reactions>
+        <tyre_management>0.638</tyre_management>
+        <fuel_management>0.937</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.836</weather_tyre_changes>
+        <avoidance_of_mistakes>0.627</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.729</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.961</vehicle_reliability>
+    </driver>
+    <driver livery_name="BMW M6 GT3 #61">
+        <name>Kevin Harvik</name>
+        <country>USA</country>
+        <race_skill>0.84</race_skill>
+        <qualifying_skill>0.586</qualifying_skill>
+        <aggression>0.662</aggression>
+        <defending>0.862</defending>
+        <stamina>0.828</stamina>
+        <consistency>0.963</consistency>
+        <start_reactions>0.981</start_reactions>
+        <tyre_management>0.827</tyre_management>
+        <fuel_management>0.522</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.535</weather_tyre_changes>
+        <avoidance_of_mistakes>0.541</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.738</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.81</vehicle_reliability>
+    </driver>
+    <driver livery_name="Mercedes-AMG #60">
+        <name>Danica Patrick</name>
+        <country>USA</country>
+        <race_skill>0.934</race_skill>
+        <qualifying_skill>0.526</qualifying_skill>
+        <aggression>0.797</aggression>
+        <defending>0.64</defending>
+        <stamina>0.624</stamina>
+        <consistency>0.549</consistency>
+        <start_reactions>0.803</start_reactions>
+        <tyre_management>0.993</tyre_management>
+        <fuel_management>0.581</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.992</weather_tyre_changes>
+        <avoidance_of_mistakes>0.506</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.768</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.867</vehicle_reliability>
+    </driver>
+    <driver livery_name="Porsche 911 GT3 R #17">
+        <name>Alexander Albon</name>
+        <country>USA</country>
+        <race_skill>0.648</race_skill>
+        <qualifying_skill>0.724</qualifying_skill>
+        <aggression>0.596</aggression>
+        <defending>0.883</defending>
+        <stamina>0.671</stamina>
+        <consistency>0.688</consistency>
+        <start_reactions>0.819</start_reactions>
+        <tyre_management>0.689</tyre_management>
+        <fuel_management>0.936</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.637</weather_tyre_changes>
+        <avoidance_of_mistakes>0.77</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.881</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.874</vehicle_reliability>
+    </driver>
+    <driver livery_name="McLaren 720S GT3 #27">
+        <name>Lando Norris</name>
+        <country>USA</country>
+        <race_skill>0.641</race_skill>
+        <qualifying_skill>0.548</qualifying_skill>
+        <aggression>0.909</aggression>
+        <defending>0.517</defending>
+        <stamina>0.693</stamina>
+        <consistency>0.71</consistency>
+        <start_reactions>0.716</start_reactions>
+        <tyre_management>0.81</tyre_management>
+        <fuel_management>0.87</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.831</weather_tyre_changes>
+        <avoidance_of_mistakes>0.633</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.562</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.87</vehicle_reliability>
+    </driver>
+    <driver livery_name="Nissan Nismo GT-R GT3 #207">
+        <name>Tiny Chan</name>
+        <country>USA</country>
+        <race_skill>0.586</race_skill>
+        <qualifying_skill>0.57</qualifying_skill>
+        <aggression>0.66</aggression>
+        <defending>0.968</defending>
+        <stamina>0.619</stamina>
+        <consistency>0.954</consistency>
+        <start_reactions>0.64</start_reactions>
+        <tyre_management>0.527</tyre_management>
+        <fuel_management>0.514</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.997</weather_tyre_changes>
+        <avoidance_of_mistakes>0.806</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.65</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.858</vehicle_reliability>
+    </driver>
+    <driver livery_name="BMW M6 GT3 #83">
+        <name>Denny Hamlin</name>
+        <country>USA</country>
+        <race_skill>0.924</race_skill>
+        <qualifying_skill>0.828</qualifying_skill>
+        <aggression>0.892</aggression>
+        <defending>0.771</defending>
+        <stamina>0.576</stamina>
+        <consistency>0.932</consistency>
+        <start_reactions>0.609</start_reactions>
+        <tyre_management>0.594</tyre_management>
+        <fuel_management>0.518</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.839</weather_tyre_changes>
+        <avoidance_of_mistakes>0.711</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.995</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.82</vehicle_reliability>
+    </driver>
+    <driver livery_name="Mercedes-AMG #77">
+        <name>Lea Matic</name>
+        <country>USA</country>
+        <race_skill>0.521</race_skill>
+        <qualifying_skill>0.775</qualifying_skill>
+        <aggression>0.772</aggression>
+        <defending>0.738</defending>
+        <stamina>0.756</stamina>
+        <consistency>0.631</consistency>
+        <start_reactions>0.828</start_reactions>
+        <tyre_management>0.618</tyre_management>
+        <fuel_management>0.673</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.536</weather_tyre_changes>
+        <avoidance_of_mistakes>0.804</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.509</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.831</vehicle_reliability>
+    </driver>
+    <driver livery_name="Porsche 911 GT3 R #41">
+        <name>Jeff Gordon</name>
+        <country>USA</country>
+        <race_skill>0.928</race_skill>
+        <qualifying_skill>0.939</qualifying_skill>
+        <aggression>0.609</aggression>
+        <defending>0.86</defending>
+        <stamina>0.837</stamina>
+        <consistency>0.939</consistency>
+        <start_reactions>0.8</start_reactions>
+        <tyre_management>0.991</tyre_management>
+        <fuel_management>0.619</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.593</weather_tyre_changes>
+        <avoidance_of_mistakes>0.905</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.617</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.953</vehicle_reliability>
+    </driver>
+    <driver livery_name="McLaren 720S GT3 #90">
+        <name>Kyle Larson</name>
+        <country>USA</country>
+        <race_skill>0.791</race_skill>
+        <qualifying_skill>0.636</qualifying_skill>
+        <aggression>0.982</aggression>
+        <defending>0.698</defending>
+        <stamina>0.757</stamina>
+        <consistency>0.702</consistency>
+        <start_reactions>0.963</start_reactions>
+        <tyre_management>0.715</tyre_management>
+        <fuel_management>0.698</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.681</weather_tyre_changes>
+        <avoidance_of_mistakes>0.696</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.994</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.893</vehicle_reliability>
+    </driver>
+    <driver livery_name="Nissan Nismo GT-R GT3 #209">
+        <name>Sergio Perez</name>
+        <country>USA</country>
+        <race_skill>0.584</race_skill>
+        <qualifying_skill>0.826</qualifying_skill>
+        <aggression>0.969</aggression>
+        <defending>0.681</defending>
+        <stamina>0.704</stamina>
+        <consistency>0.793</consistency>
+        <start_reactions>0.917</start_reactions>
+        <tyre_management>0.727</tyre_management>
+        <fuel_management>0.871</fuel_management>
+        <blue_flag_conceding>1</blue_flag_conceding>
+        <weather_tyre_changes>0.587</weather_tyre_changes>
+        <avoidance_of_mistakes>0.515</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.724</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.858</vehicle_reliability>
     </driver>
 </custom_ai_drivers>
