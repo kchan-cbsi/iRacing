@@ -41,18 +41,30 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
             "McLaren 720S GT3 #92",
             "McLaren 720S GT3 #94",
         ],
-        "F-Ultimate_G2" => [
-            "Team ViryStone #15",
+        "F-Ultimate_Gen2" => [
+            "Team Virystone #15",
+            "Team Virystone #2",
             "Bond G.P. #3",
             "Bond G.P. #5",
             "DNA-US #4",
             "DNA-US #7",
             "Full Force Racing #8",
+            "Full Force Racing #10",
             "McLean G.P. #22",
             "McLean G.P. #32",
             "energyX Faenza #98",
             "Strike G.P. #63",
             "Strike G.P. #85",
+            "Didcot Racing #1",
+            "Didcot Racing #6",
+            "Starward G.P. #9",
+            "Starward G.P. #18",
+            "Scuderia Milano #17",
+            "Scuderia Milano #28",
+            "energyX Racing #24",
+            "energyX Racing #51",
+            "Scuderia Forza #45",
+            "Scuderia Forza #72",
         ],
         "Cat_Academy" => [
             "Caterham Academy - Tim Childress #00",
@@ -65,13 +77,13 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
         ]
     ];
 
-    if (!empty($driverNbr) && !empty($carClass)) {
-        shuffle($liveries[$carClass]);
-        $_xml->addAttribute('livery_name', $liveries[$carClass][0]);
+    if ($driverNbr !== null && !empty($carClass)) {
+                $_xml->addAttribute('livery_name', $liveries[$carClass][$driverNbr]);
     }
 
     // If there is no Root Element then insert root
     if ($_xml === null) {
+        shuffle($liveries[$carClass]);
         $_xml = new SimpleXMLElement($rootElement !== null ? $rootElement : '<root/>');
     }
 
@@ -133,13 +145,7 @@ function buildArr($iter=21, $livery=null) {
     shuffle($names);
 
     for($i=0; $i<$iter; $i++) {
-        $driverNbr = rand(0, 99);
-        while(in_array($driverNbr, $used)) {
-            $driverNbr = rand(0, 99);
-        }
-
-        $used[] = $driverNbr;
-        $driver = "driver_" . $driverNbr;
+        $driver = "driver_" . $i;
         $temp = [
             "name"                         => $names[$i],
             "country"                      => "USA",
