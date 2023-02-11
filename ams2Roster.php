@@ -9,36 +9,36 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
         "GT3" => [
             "Nissan Nismo GT-R GT3 #201",
             "BMW M6 GT3 #2",
-            "Mercedes-AMG #01",
+            "Mercedes-AMG GT3 #01",
             "Porsche 911 GT3 R #05",
             "McLaren 720S GT3 #04",
             "Nissan Nismo GT-R GT3 #203",
             "BMW M6 GT3 #11",
-            "Mercedes-AMG #09",
+            "Mercedes-AMG GT3 #09",
             "Porsche 911 GT3 R #10",
             "McLaren 720S GT3 #12",
             "Nissan Nismo GT-R GT3 #205",
             "BMW M6 GT3 #61",
-            "Mercedes-AMG #60",
+            "Mercedes-AMG GT3 #60",
             "Porsche 911 GT3 R #17",
             "McLaren 720S GT3 #27",
             "Nissan Nismo GT-R GT3 #207",
             "BMW M6 GT3 #83",
-            "Mercedes-AMG #77",
+            "Mercedes-AMG GT3 #77",
             "Porsche 911 GT3 R #41",
             "McLaren 720S GT3 #90",
             "Nissan Nismo GT-R GT3 #209",
             "BMW M6 GT3 #91",
-            "Mercedes-AMG #81",
+            "Mercedes-AMG GT3 #81",
             "Porsche 911 GT3 R #75",
             "McLaren 720S GT3 #92",
             "Nissan Nismo GT-R GT3 #211",
             "BMW M6 GT3 #96",
-            "Mercedes-AMG #85",
+            "Mercedes-AMG GT3 #85",
             "Porsche 911 GT3 R #82",
             "McLaren 720S GT3 #94",
             "Nissan Nismo GT-R GT3 #212",
-            "Mercedes-AMG #99",
+            "Mercedes-AMG GT3 #99",
             "Porsche 911 GT3 R #93",
         ],
         "F-Ultimate_Gen2" => [
@@ -116,7 +116,6 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
 }
 
 function buildArr($iter=21, $livery=null) {
-    $used = [];
     $arr  = [];
     $names = [
         "Tony Stewart",
@@ -133,7 +132,7 @@ function buildArr($iter=21, $livery=null) {
         "Tiny Chan",
         "Danica Patrick",
         "Max Verstappen",
-        "Sergio Perez", //15
+        "Sergio Perez",
         "Zhou Guanyu",
         "Alexander Albon",
         "Dale Earnhardt Jr.",
@@ -144,10 +143,10 @@ function buildArr($iter=21, $livery=null) {
 
     shuffle($names);
 
-    for($i=0; $i<$iter; $i++) {
+    foreach($names as $i=>$name) {
         $driver = "driver_" . $i;
         $temp = [
-            "name"                         => $names[$i],
+            "name"                         => $name,
             "country"                      => "USA",
             "race_skill"                   => getRand(500, 1000),
             "qualifying_skill"             => getRand(500, 1000),
