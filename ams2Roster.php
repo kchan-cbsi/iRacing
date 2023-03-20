@@ -139,6 +139,10 @@ function buildArr($iter=21, $livery=null) {
         "Denny Hamlin",
         "Kevin Harvik",
         "Max Power",
+        "George Russell",
+        "Yuki Tsunoda",
+        "Daniel Riccardo",
+        "Dale Jarrett"
     ];
 
     shuffle($names);
