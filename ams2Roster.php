@@ -142,7 +142,13 @@ function buildArr($iter=21, $livery=null) {
         "George Russell",
         "Yuki Tsunoda",
         "Daniel Riccardo",
-        "Dale Jarrett"
+        "Dale Jarrett",
+        "Peddy Khatami",
+        "Dan Chau",
+        "Brooks Robertson",
+        "Erick Kim",
+        "Sam Chan",
+        "David Chan"
     ];
 
     shuffle($names);
