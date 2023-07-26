@@ -2,7 +2,7 @@
 
 
 // Define a function that converts array to xml.
-function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null, $carClass=null) {
+function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null, $carClass=null, $crazy=false) {
     $_xml = $xml;
 
     $liveries = [
@@ -103,6 +103,27 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
             "Team Penske #2",
             "Team Penske #3",
             "Team Penske #12"
+        ],
+        "P1" => [
+            "929",
+            "23",
+            "888",
+            "34",
+            "48",
+            "24",
+            "007",
+            "415",
+            "925",
+            "510",
+            "408",
+            "777",
+            "51",
+            "01",
+            "2",
+            "20",
+            "80",
+            "16",
+            "99"
         ]
     ];
 
@@ -144,7 +165,7 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
     return $_xml->asXML();
 }
 
-function buildArr($iter=21, $livery=null) {
+function buildArr($crazy = false) {
     $arr  = [];
     $names = [
         "Tony Stewart",
@@ -191,16 +212,16 @@ function buildArr($iter=21, $livery=null) {
             "qualifying_skill"             => getRand(500, 1000),
             "aggression"                   => getRand(500, 1000),
             "defending"                    => getRand(500, 1000),
-            "stamina"                      => getRand(500, 1000),
-            "consistency"                  => getRand(500, 1000),
+            "stamina"                      => ($crazy === false) ? getRand(500, 1000) : 0.1,
+            "consistency"                  => ($crazy === false) ? getRand(500, 1000) : 0.01,
             "start_reactions"              => getRand(500, 1000),
             "tyre_management"              => getRand(500, 1000),
             "fuel_management"              => getRand(500, 1000),
             "blue_flag_conceding"          => 1.0,
             "weather_tyre_changes"         => getRand(500, 1000),
-            "avoidance_of_mistakes"        => getRand(500, 1000),
-            "avoidance_of_forced_mistakes" => getRand(500, 1000),
-            "vehicle_reliability"          => getRand(780, 1000),
+            "avoidance_of_mistakes"        => ($crazy === false) ? getRand(500, 1000) : 0.1,
+            "avoidance_of_forced_mistakes" => ($crazy === false) ? getRand(500, 1000) : 0.1,
+            "vehicle_reliability"          => getRand(100, 1000),
 
         ];
 
@@ -220,6 +241,12 @@ if (empty($argv[1])) {
     $carClass = $argv[1];
 }
 
-$ai = buildArr();
+if (empty($argv[2])) {
+    $crazy = false;
+} else {
+    $crazy = true;
+}
+
+$ai = buildArr($crazy);
 $string = arrayToXml($ai, '<custom_ai_drivers/>', null, null, $carClass);
 file_put_contents($carClass .".xml", $string);
