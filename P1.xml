@@ -342,7 +342,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.329</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="100">
         <name>Sam Chan</name>
         <country>USA</country>
         <race_skill>0.839</race_skill>
@@ -360,7 +360,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.691</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="101">
         <name>Tony Stewart</name>
         <country>USA</country>
         <race_skill>0.882</race_skill>
@@ -378,7 +378,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.656</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="102">
         <name>Alexander Albon</name>
         <country>USA</country>
         <race_skill>0.823</race_skill>
@@ -396,7 +396,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.813</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="103">
         <name>Sergio Perez</name>
         <country>USA</country>
         <race_skill>0.713</race_skill>
@@ -414,7 +414,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.436</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="104">
         <name>Danica Patrick</name>
         <country>USA</country>
         <race_skill>0.703</race_skill>
@@ -432,7 +432,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.8</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="111">
         <name>Erick Kim</name>
         <country>USA</country>
         <race_skill>0.707</race_skill>
@@ -450,7 +450,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.576</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="55">
         <name>Tiny Chan</name>
         <country>USA</country>
         <race_skill>0.647</race_skill>
@@ -468,7 +468,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.408</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="78">
         <name>Jeff Gordon</name>
         <country>USA</country>
         <race_skill>0.786</race_skill>
@@ -486,7 +486,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.901</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="6">
         <name>David Chan</name>
         <country>USA</country>
         <race_skill>0.937</race_skill>
@@ -504,7 +504,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.322</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="8">
         <name>Max Power</name>
         <country>USA</country>
         <race_skill>0.762</race_skill>
@@ -522,7 +522,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.674</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="44">
         <name>Lando Norris</name>
         <country>USA</country>
         <race_skill>0.711</race_skill>
@@ -540,7 +540,7 @@
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.96</vehicle_reliability>
     </driver>
-    <driver livery_name="">
+    <driver livery_name="28">
         <name>George Russell</name>
         <country>USA</country>
         <race_skill>0.552</race_skill>
