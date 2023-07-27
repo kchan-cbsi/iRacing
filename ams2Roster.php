@@ -214,7 +214,13 @@ function buildArr($crazy = false) {
         "Brooks Robertson",
         "Erick Kim",
         "Sam Chan",
-        "David Chan"
+        "David Chan",
+        "Brock Purdy",
+        "Jerry Rice",
+        "Michael Shumacher",
+        "Michael Andretti",
+        "Joe Montana",
+        "Steve Young",
     ];
 
     shuffle($names);
