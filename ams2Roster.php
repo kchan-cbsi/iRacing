@@ -221,6 +221,15 @@ function buildArr($crazy = false) {
         "Michael Andretti",
         "Joe Montana",
         "Steve Young",
+        "Pato O'Ward",
+        "Scott Dixon",
+        "Romain Grosjean",
+        "Colton Herta",
+        "Josef Newgarden",
+        "Felix Rosenqvist",
+        "Kyle Kirkwood",
+        "Christian Lundgaard",
+        "Scott McLaughlin"
     ];
 
     shuffle($names);
@@ -230,20 +239,20 @@ function buildArr($crazy = false) {
         $temp = [
             "name"                         => $name,
             "country"                      => "USA",
-            "race_skill"                   => getRand(500, 1000),
-            "qualifying_skill"             => getRand(500, 1000),
-            "aggression"                   => getRand(500, 1000),
-            "defending"                    => getRand(500, 1000),
+            "race_skill"                   => getRand(880, 1000),
+            "qualifying_skill"             => getRand(880, 1000),
+            "aggression"                   => getRand(880, 1000),
+            "defending"                    => getRand(880, 1000),
             "stamina"                      => ($crazy === false) ? getRand(500, 1000) : 0.1,
             "consistency"                  => ($crazy === false) ? getRand(500, 1000) : 0.01,
             "start_reactions"              => getRand(500, 1000),
             "tyre_management"              => getRand(500, 1000),
             "fuel_management"              => getRand(500, 1000),
-            "blue_flag_conceding"          => 1.0,
+            "blue_flag_conceding"          => 1000,
             "weather_tyre_changes"         => getRand(500, 1000),
             "avoidance_of_mistakes"        => ($crazy === false) ? getRand(500, 1000) : 0.1,
             "avoidance_of_forced_mistakes" => ($crazy === false) ? getRand(500, 1000) : 0.1,
-            "vehicle_reliability"          => getRand(100, 1000),
+            "vehicle_reliability"          => getRand(800, 1000),
 
         ];
 

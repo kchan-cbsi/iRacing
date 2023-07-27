@@ -1,669 +1,831 @@
 <?xml version="1.0"?>
 <custom_ai_drivers>
     <driver livery_name="JLM Racing #28">
-        <name>Jerry Rice</name>
-        <country>USA</country>
-        <race_skill>0.654</race_skill>
-        <qualifying_skill>0.8</qualifying_skill>
-        <aggression>0.536</aggression>
-        <defending>0.628</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.513</start_reactions>
-        <tyre_management>0.714</tyre_management>
-        <fuel_management>0.764</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.763</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.422</vehicle_reliability>
-    </driver>
-    <driver livery_name="JLM Racing #175">
-        <name>Kennedy Chan</name>
-        <country>USA</country>
-        <race_skill>0.848</race_skill>
-        <qualifying_skill>0.569</qualifying_skill>
-        <aggression>0.927</aggression>
-        <defending>0.615</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.775</start_reactions>
-        <tyre_management>0.973</tyre_management>
-        <fuel_management>0.851</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.947</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.191</vehicle_reliability>
-    </driver>
-    <driver livery_name="JLM Racing #43">
-        <name>Jeff Burton</name>
-        <country>USA</country>
-        <race_skill>0.871</race_skill>
-        <qualifying_skill>0.531</qualifying_skill>
-        <aggression>0.988</aggression>
-        <defending>0.933</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.878</start_reactions>
-        <tyre_management>0.767</tyre_management>
-        <fuel_management>0.912</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.707</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.113</vehicle_reliability>
-    </driver>
-    <driver livery_name="JLM Racing #113">
-        <name>Lewis Hamilton</name>
-        <country>USA</country>
-        <race_skill>0.993</race_skill>
-        <qualifying_skill>0.546</qualifying_skill>
-        <aggression>0.61</aggression>
-        <defending>0.545</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.673</start_reactions>
-        <tyre_management>0.652</tyre_management>
-        <fuel_management>0.83</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.641</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.58</vehicle_reliability>
-    </driver>
-    <driver livery_name="JLM Racing #11">
         <name>Denny Hamlin</name>
         <country>USA</country>
-        <race_skill>0.72</race_skill>
-        <qualifying_skill>0.929</qualifying_skill>
-        <aggression>0.88</aggression>
-        <defending>0.764</defending>
+        <race_skill>0.947</race_skill>
+        <qualifying_skill>0.892</qualifying_skill>
+        <aggression>0.954</aggression>
+        <defending>0.914</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.861</start_reactions>
-        <tyre_management>0.612</tyre_management>
-        <fuel_management>0.838</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.761</weather_tyre_changes>
+        <start_reactions>0.674</start_reactions>
+        <tyre_management>0.943</tyre_management>
+        <fuel_management>0.707</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.623</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.721</vehicle_reliability>
+        <vehicle_reliability>0.809</vehicle_reliability>
+    </driver>
+    <driver livery_name="JLM Racing #175">
+        <name>Yuki Tsunoda</name>
+        <country>USA</country>
+        <race_skill>0.923</race_skill>
+        <qualifying_skill>0.983</qualifying_skill>
+        <aggression>0.995</aggression>
+        <defending>0.926</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.556</start_reactions>
+        <tyre_management>0.614</tyre_management>
+        <fuel_management>0.972</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.833</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.835</vehicle_reliability>
+    </driver>
+    <driver livery_name="JLM Racing #43">
+        <name>Peddy Khatami</name>
+        <country>USA</country>
+        <race_skill>0.931</race_skill>
+        <qualifying_skill>0.907</qualifying_skill>
+        <aggression>0.936</aggression>
+        <defending>0.898</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.894</start_reactions>
+        <tyre_management>0.729</tyre_management>
+        <fuel_management>0.901</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.783</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.834</vehicle_reliability>
+    </driver>
+    <driver livery_name="JLM Racing #113">
+        <name>Alexander Albon</name>
+        <country>USA</country>
+        <race_skill>0.886</race_skill>
+        <qualifying_skill>0.887</qualifying_skill>
+        <aggression>0.92</aggression>
+        <defending>0.918</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.683</start_reactions>
+        <tyre_management>0.661</tyre_management>
+        <fuel_management>0.596</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.827</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.854</vehicle_reliability>
+    </driver>
+    <driver livery_name="JLM Racing #11">
+        <name>Kyle Kirkwood</name>
+        <country>USA</country>
+        <race_skill>0.929</race_skill>
+        <qualifying_skill>0.95</qualifying_skill>
+        <aggression>0.91</aggression>
+        <defending>0.903</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.512</start_reactions>
+        <tyre_management>0.734</tyre_management>
+        <fuel_management>0.931</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.847</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.98</vehicle_reliability>
     </driver>
     <driver livery_name="JLM Racing #29">
-        <name>David Chan</name>
+        <name>Scott Dixon</name>
         <country>USA</country>
-        <race_skill>0.868</race_skill>
-        <qualifying_skill>0.5</qualifying_skill>
-        <aggression>0.619</aggression>
-        <defending>0.964</defending>
+        <race_skill>0.996</race_skill>
+        <qualifying_skill>0.896</qualifying_skill>
+        <aggression>0.932</aggression>
+        <defending>0.97</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.549</start_reactions>
-        <tyre_management>0.721</tyre_management>
-        <fuel_management>0.641</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.838</weather_tyre_changes>
+        <start_reactions>0.655</start_reactions>
+        <tyre_management>0.781</tyre_management>
+        <fuel_management>0.688</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.533</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.299</vehicle_reliability>
+        <vehicle_reliability>0.813</vehicle_reliability>
     </driver>
     <driver livery_name="MM AJR #58 - S.Rogers Skin">
-        <name>Dale Jarrett</name>
+        <name>David Chan</name>
         <country>USA</country>
-        <race_skill>0.547</race_skill>
-        <qualifying_skill>0.677</qualifying_skill>
-        <aggression>0.87</aggression>
-        <defending>0.9</defending>
+        <race_skill>0.902</race_skill>
+        <qualifying_skill>0.915</qualifying_skill>
+        <aggression>0.974</aggression>
+        <defending>0.919</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.828</start_reactions>
-        <tyre_management>0.981</tyre_management>
-        <fuel_management>0.784</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.991</weather_tyre_changes>
+        <start_reactions>0.794</start_reactions>
+        <tyre_management>0.582</tyre_management>
+        <fuel_management>0.83</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.903</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.32</vehicle_reliability>
+        <vehicle_reliability>0.927</vehicle_reliability>
     </driver>
     <driver livery_name="AJR Tubarao #5">
-        <name>Tony Stewart</name>
+        <name>Jeff Burton</name>
         <country>USA</country>
-        <race_skill>0.551</race_skill>
-        <qualifying_skill>0.883</qualifying_skill>
-        <aggression>0.915</aggression>
-        <defending>0.956</defending>
+        <race_skill>0.902</race_skill>
+        <qualifying_skill>0.922</qualifying_skill>
+        <aggression>0.963</aggression>
+        <defending>0.935</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.697</start_reactions>
-        <tyre_management>0.661</tyre_management>
-        <fuel_management>0.566</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.745</weather_tyre_changes>
+        <start_reactions>0.996</start_reactions>
+        <tyre_management>0.797</tyre_management>
+        <fuel_management>0.657</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.929</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.343</vehicle_reliability>
+        <vehicle_reliability>0.958</vehicle_reliability>
     </driver>
     <driver livery_name="NC Racing #65">
         <name>Phoebe Chan</name>
         <country>USA</country>
-        <race_skill>0.56</race_skill>
-        <qualifying_skill>0.574</qualifying_skill>
-        <aggression>0.849</aggression>
-        <defending>0.988</defending>
+        <race_skill>0.924</race_skill>
+        <qualifying_skill>0.979</qualifying_skill>
+        <aggression>0.925</aggression>
+        <defending>0.897</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.758</start_reactions>
-        <tyre_management>0.79</tyre_management>
-        <fuel_management>0.757</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.947</weather_tyre_changes>
+        <start_reactions>0.908</start_reactions>
+        <tyre_management>0.622</tyre_management>
+        <fuel_management>0.548</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.725</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.524</vehicle_reliability>
+        <vehicle_reliability>0.896</vehicle_reliability>
     </driver>
     <driver livery_name="MM AJR #37 - H.Blom Skin">
-        <name>Michael Shumacher</name>
+        <name>Lando Norris</name>
         <country>USA</country>
-        <race_skill>0.769</race_skill>
-        <qualifying_skill>0.606</qualifying_skill>
-        <aggression>0.561</aggression>
-        <defending>0.622</defending>
+        <race_skill>0.9</race_skill>
+        <qualifying_skill>0.895</qualifying_skill>
+        <aggression>0.982</aggression>
+        <defending>0.954</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.81</start_reactions>
-        <tyre_management>0.859</tyre_management>
-        <fuel_management>0.542</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.983</weather_tyre_changes>
+        <start_reactions>0.722</start_reactions>
+        <tyre_management>0.786</tyre_management>
+        <fuel_management>0.633</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.816</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.101</vehicle_reliability>
+        <vehicle_reliability>0.801</vehicle_reliability>
     </driver>
     <driver livery_name="PMotor Brasil #2">
-        <name>Dan Chau</name>
-        <country>USA</country>
-        <race_skill>0.621</race_skill>
-        <qualifying_skill>0.881</qualifying_skill>
-        <aggression>0.997</aggression>
-        <defending>0.507</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.696</start_reactions>
-        <tyre_management>0.525</tyre_management>
-        <fuel_management>0.795</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.595</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.905</vehicle_reliability>
-    </driver>
-    <driver livery_name="Motikov Sport #15">
-        <name>Butters Chan</name>
-        <country>USA</country>
-        <race_skill>0.915</race_skill>
-        <qualifying_skill>0.671</qualifying_skill>
-        <aggression>0.793</aggression>
-        <defending>0.631</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.856</start_reactions>
-        <tyre_management>0.898</tyre_management>
-        <fuel_management>0.874</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.671</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.851</vehicle_reliability>
-    </driver>
-    <driver livery_name="Motikov Sport #13">
         <name>Erick Kim</name>
         <country>USA</country>
-        <race_skill>0.817</race_skill>
-        <qualifying_skill>0.642</qualifying_skill>
-        <aggression>0.66</aggression>
-        <defending>0.509</defending>
+        <race_skill>0.951</race_skill>
+        <qualifying_skill>0.88</qualifying_skill>
+        <aggression>0.89</aggression>
+        <defending>0.894</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.596</start_reactions>
-        <tyre_management>0.976</tyre_management>
-        <fuel_management>0.65</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
+        <start_reactions>0.866</start_reactions>
+        <tyre_management>0.851</tyre_management>
+        <fuel_management>0.645</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
         <weather_tyre_changes>0.91</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.5</vehicle_reliability>
+        <vehicle_reliability>0.842</vehicle_reliability>
     </driver>
-    <driver livery_name="Mottin Racing #46">
-        <name>Kevin Harvik</name>
+    <driver livery_name="Motikov Sport #15">
+        <name>Dale Jarrett</name>
         <country>USA</country>
-        <race_skill>0.571</race_skill>
-        <qualifying_skill>0.754</qualifying_skill>
-        <aggression>0.503</aggression>
-        <defending>0.801</defending>
+        <race_skill>0.972</race_skill>
+        <qualifying_skill>0.912</qualifying_skill>
+        <aggression>0.897</aggression>
+        <defending>0.933</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.531</start_reactions>
-        <tyre_management>0.657</tyre_management>
-        <fuel_management>0.611</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.908</weather_tyre_changes>
+        <start_reactions>0.924</start_reactions>
+        <tyre_management>0.94</tyre_management>
+        <fuel_management>0.775</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.977</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.301</vehicle_reliability>
+        <vehicle_reliability>0.954</vehicle_reliability>
     </driver>
-    <driver livery_name="MM AJR #22 - F.Castelloes Skin">
-        <name>Peddy Khatami</name>
-        <country>USA</country>
-        <race_skill>0.614</race_skill>
-        <qualifying_skill>0.891</qualifying_skill>
-        <aggression>0.733</aggression>
-        <defending>0.613</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.582</start_reactions>
-        <tyre_management>0.955</tyre_management>
-        <fuel_management>0.732</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.575</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.893</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR #62 - R.Sandstorm Skin">
-        <name>Tiny Chan</name>
-        <country>USA</country>
-        <race_skill>0.789</race_skill>
-        <qualifying_skill>0.7</qualifying_skill>
-        <aggression>0.887</aggression>
-        <defending>0.928</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.977</start_reactions>
-        <tyre_management>0.79</tyre_management>
-        <fuel_management>0.511</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.69</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.399</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR #40 - D.Emerson Skin">
+    <driver livery_name="Motikov Sport #13">
         <name>Steve Young</name>
         <country>USA</country>
-        <race_skill>0.54</race_skill>
-        <qualifying_skill>0.565</qualifying_skill>
-        <aggression>0.814</aggression>
-        <defending>0.686</defending>
+        <race_skill>0.967</race_skill>
+        <qualifying_skill>0.947</qualifying_skill>
+        <aggression>0.948</aggression>
+        <defending>0.995</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.823</start_reactions>
-        <tyre_management>0.74</tyre_management>
-        <fuel_management>0.801</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.53</weather_tyre_changes>
+        <start_reactions>0.735</start_reactions>
+        <tyre_management>0.779</tyre_management>
+        <fuel_management>0.751</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.643</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.672</vehicle_reliability>
+        <vehicle_reliability>0.832</vehicle_reliability>
     </driver>
-    <driver livery_name="Reiza Engineering #7">
-        <name>Brooks Robertson</name>
-        <country>USA</country>
-        <race_skill>0.78</race_skill>
-        <qualifying_skill>0.654</qualifying_skill>
-        <aggression>0.873</aggression>
-        <defending>0.52</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.574</start_reactions>
-        <tyre_management>0.916</tyre_management>
-        <fuel_management>0.668</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.973</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.777</vehicle_reliability>
-    </driver>
-    <driver livery_name="VX Endurance #8">
-        <name>Lando Norris</name>
-        <country>USA</country>
-        <race_skill>0.784</race_skill>
-        <qualifying_skill>0.943</qualifying_skill>
-        <aggression>0.667</aggression>
-        <defending>0.824</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.837</start_reactions>
-        <tyre_management>0.803</tyre_management>
-        <fuel_management>0.877</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.619</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.925</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR #30 - P.Tiago Skin">
-        <name>Max Verstappen</name>
-        <country>USA</country>
-        <race_skill>0.933</race_skill>
-        <qualifying_skill>0.916</qualifying_skill>
-        <aggression>0.75</aggression>
-        <defending>0.832</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.559</start_reactions>
-        <tyre_management>0.917</tyre_management>
-        <fuel_management>0.708</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.644</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.473</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR #52 - E.Mesquita Skin">
-        <name>Alexander Albon</name>
-        <country>USA</country>
-        <race_skill>0.798</race_skill>
-        <qualifying_skill>0.522</qualifying_skill>
-        <aggression>0.602</aggression>
-        <defending>0.98</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.918</start_reactions>
-        <tyre_management>0.931</tyre_management>
-        <fuel_management>0.509</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.992</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.586</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR #84 - J.Billing Skin">
-        <name>Daniel Riccardo</name>
-        <country>USA</country>
-        <race_skill>0.706</race_skill>
-        <qualifying_skill>0.569</qualifying_skill>
-        <aggression>0.713</aggression>
-        <defending>0.733</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.666</start_reactions>
-        <tyre_management>0.94</tyre_management>
-        <fuel_management>0.62</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.924</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.529</vehicle_reliability>
-    </driver>
-    <driver livery_name="Padole Racing #21">
-        <name>Zhou Guanyu</name>
-        <country>USA</country>
-        <race_skill>0.612</race_skill>
-        <qualifying_skill>0.721</qualifying_skill>
-        <aggression>0.812</aggression>
-        <defending>0.664</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.805</start_reactions>
-        <tyre_management>0.575</tyre_management>
-        <fuel_management>0.752</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.622</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.993</vehicle_reliability>
-    </driver>
-    <driver livery_name="Padole Racing #17">
-        <name>Lea Matic</name>
-        <country>USA</country>
-        <race_skill>0.964</race_skill>
-        <qualifying_skill>0.754</qualifying_skill>
-        <aggression>0.614</aggression>
-        <defending>0.929</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.844</start_reactions>
-        <tyre_management>0.674</tyre_management>
-        <fuel_management>0.826</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.715</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.488</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR ##35 - A.Mocanu Skin">
-        <name>Yuki Tsunoda</name>
-        <country>USA</country>
-        <race_skill>0.579</race_skill>
-        <qualifying_skill>0.662</qualifying_skill>
-        <aggression>0.904</aggression>
-        <defending>0.914</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.905</start_reactions>
-        <tyre_management>0.645</tyre_management>
-        <fuel_management>0.712</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.653</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.102</vehicle_reliability>
-    </driver>
-    <driver livery_name="Kia Power Imports Racing #80">
-        <name>Max Power</name>
-        <country>USA</country>
-        <race_skill>0.821</race_skill>
-        <qualifying_skill>0.847</qualifying_skill>
-        <aggression>0.503</aggression>
-        <defending>0.737</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.795</start_reactions>
-        <tyre_management>0.529</tyre_management>
-        <fuel_management>0.701</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.54</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.358</vehicle_reliability>
-    </driver>
-    <driver livery_name="MM AJR ##55 - P.Papaioannou Skin">
+    <driver livery_name="Mottin Racing #46">
         <name>Ross Chastain</name>
         <country>USA</country>
-        <race_skill>0.944</race_skill>
-        <qualifying_skill>0.845</qualifying_skill>
-        <aggression>0.732</aggression>
-        <defending>0.596</defending>
+        <race_skill>0.889</race_skill>
+        <qualifying_skill>0.994</qualifying_skill>
+        <aggression>0.98</aggression>
+        <defending>0.975</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.511</start_reactions>
-        <tyre_management>0.735</tyre_management>
-        <fuel_management>0.593</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
+        <start_reactions>0.942</start_reactions>
+        <tyre_management>0.789</tyre_management>
+        <fuel_management>0.545</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.945</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.838</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #22 - F.Castelloes Skin">
+        <name>Jerry Rice</name>
+        <country>USA</country>
+        <race_skill>0.886</race_skill>
+        <qualifying_skill>1</qualifying_skill>
+        <aggression>0.932</aggression>
+        <defending>0.888</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.725</start_reactions>
+        <tyre_management>0.739</tyre_management>
+        <fuel_management>0.971</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.553</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.941</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #62 - R.Sandstorm Skin">
+        <name>Pato O'Ward</name>
+        <country>USA</country>
+        <race_skill>0.886</race_skill>
+        <qualifying_skill>0.938</qualifying_skill>
+        <aggression>0.913</aggression>
+        <defending>0.998</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.62</start_reactions>
+        <tyre_management>0.985</tyre_management>
+        <fuel_management>0.964</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.568</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.986</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #40 - D.Emerson Skin">
+        <name>Tony Stewart</name>
+        <country>USA</country>
+        <race_skill>0.932</race_skill>
+        <qualifying_skill>0.982</qualifying_skill>
+        <aggression>0.889</aggression>
+        <defending>0.935</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.794</start_reactions>
+        <tyre_management>0.59</tyre_management>
+        <fuel_management>0.833</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
         <weather_tyre_changes>0.68</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.187</vehicle_reliability>
+        <vehicle_reliability>0.843</vehicle_reliability>
     </driver>
-    <driver livery_name="MM AJR #10 - E.Sackbauer Skin">
-        <name>Dale Earnhardt Jr.</name>
+    <driver livery_name="Reiza Engineering #7">
+        <name>Lewis Hamilton</name>
         <country>USA</country>
-        <race_skill>0.775</race_skill>
-        <qualifying_skill>0.931</qualifying_skill>
-        <aggression>0.871</aggression>
-        <defending>0.746</defending>
+        <race_skill>0.976</race_skill>
+        <qualifying_skill>0.902</qualifying_skill>
+        <aggression>0.99</aggression>
+        <defending>0.953</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.546</start_reactions>
-        <tyre_management>0.861</tyre_management>
-        <fuel_management>0.641</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.538</weather_tyre_changes>
+        <start_reactions>0.537</start_reactions>
+        <tyre_management>0.553</tyre_management>
+        <fuel_management>0.616</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.659</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.737</vehicle_reliability>
+        <vehicle_reliability>0.956</vehicle_reliability>
     </driver>
-    <driver livery_name="Laponi Racing #73">
-        <name>Sergio Perez</name>
-        <country>USA</country>
-        <race_skill>0.573</race_skill>
-        <qualifying_skill>0.527</qualifying_skill>
-        <aggression>0.661</aggression>
-        <defending>0.689</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.998</start_reactions>
-        <tyre_management>0.763</tyre_management>
-        <fuel_management>0.667</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.588</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.529</vehicle_reliability>
-    </driver>
-    <driver livery_name="Ginetta G58 #1">
-        <name>Brock Purdy</name>
-        <country>USA</country>
-        <race_skill>0.788</race_skill>
-        <qualifying_skill>0.647</qualifying_skill>
-        <aggression>0.72</aggression>
-        <defending>0.528</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.685</start_reactions>
-        <tyre_management>0.756</tyre_management>
-        <fuel_management>0.668</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.92</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.467</vehicle_reliability>
-    </driver>
-    <driver livery_name="Ginetta G58 #22">
+    <driver livery_name="VX Endurance #8">
         <name>Kyle Larson</name>
         <country>USA</country>
-        <race_skill>0.592</race_skill>
-        <qualifying_skill>0.699</qualifying_skill>
-        <aggression>0.942</aggression>
-        <defending>0.505</defending>
+        <race_skill>0.977</race_skill>
+        <qualifying_skill>0.996</qualifying_skill>
+        <aggression>0.894</aggression>
+        <defending>0.935</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.824</start_reactions>
-        <tyre_management>0.57</tyre_management>
-        <fuel_management>0.518</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.702</weather_tyre_changes>
+        <start_reactions>0.76</start_reactions>
+        <tyre_management>0.567</tyre_management>
+        <fuel_management>0.646</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.959</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.924</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #30 - P.Tiago Skin">
+        <name>Michael Shumacher</name>
+        <country>USA</country>
+        <race_skill>0.992</race_skill>
+        <qualifying_skill>0.904</qualifying_skill>
+        <aggression>0.938</aggression>
+        <defending>0.961</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.708</start_reactions>
+        <tyre_management>0.756</tyre_management>
+        <fuel_management>0.765</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.683</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.982</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #52 - E.Mesquita Skin">
+        <name>Colton Herta</name>
+        <country>USA</country>
+        <race_skill>0.943</race_skill>
+        <qualifying_skill>0.985</qualifying_skill>
+        <aggression>0.939</aggression>
+        <defending>0.884</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.504</start_reactions>
+        <tyre_management>0.751</tyre_management>
+        <fuel_management>0.614</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.52</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.864</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #84 - J.Billing Skin">
+        <name>Max Power</name>
+        <country>USA</country>
+        <race_skill>0.957</race_skill>
+        <qualifying_skill>0.888</qualifying_skill>
+        <aggression>0.999</aggression>
+        <defending>0.989</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.94</start_reactions>
+        <tyre_management>0.737</tyre_management>
+        <fuel_management>0.666</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.928</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.902</vehicle_reliability>
+    </driver>
+    <driver livery_name="Padole Racing #21">
+        <name>Josef Newgarden</name>
+        <country>USA</country>
+        <race_skill>0.923</race_skill>
+        <qualifying_skill>0.991</qualifying_skill>
+        <aggression>0.928</aggression>
+        <defending>0.978</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.623</start_reactions>
+        <tyre_management>0.718</tyre_management>
+        <fuel_management>0.503</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.926</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.996</vehicle_reliability>
+    </driver>
+    <driver livery_name="Padole Racing #17">
+        <name>Brock Purdy</name>
+        <country>USA</country>
+        <race_skill>0.999</race_skill>
+        <qualifying_skill>0.983</qualifying_skill>
+        <aggression>0.903</aggression>
+        <defending>0.895</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.72</start_reactions>
+        <tyre_management>0.793</tyre_management>
+        <fuel_management>0.711</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.97</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.998</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR ##35 - A.Mocanu Skin">
+        <name>Michael Andretti</name>
+        <country>USA</country>
+        <race_skill>0.928</race_skill>
+        <qualifying_skill>0.887</qualifying_skill>
+        <aggression>0.911</aggression>
+        <defending>1</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.528</start_reactions>
+        <tyre_management>0.559</tyre_management>
+        <fuel_management>0.528</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.535</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.989</vehicle_reliability>
+    </driver>
+    <driver livery_name="Kia Power Imports Racing #80">
+        <name>Max Verstappen</name>
+        <country>USA</country>
+        <race_skill>0.974</race_skill>
+        <qualifying_skill>0.959</qualifying_skill>
+        <aggression>0.939</aggression>
+        <defending>0.887</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.571</start_reactions>
+        <tyre_management>0.579</tyre_management>
+        <fuel_management>0.978</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.683</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.926</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR ##55 - P.Papaioannou Skin">
+        <name>Lea Matic</name>
+        <country>USA</country>
+        <race_skill>0.969</race_skill>
+        <qualifying_skill>0.943</qualifying_skill>
+        <aggression>0.998</aggression>
+        <defending>0.997</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.885</start_reactions>
+        <tyre_management>0.808</tyre_management>
+        <fuel_management>0.994</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.503</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.995</vehicle_reliability>
+    </driver>
+    <driver livery_name="MM AJR #10 - E.Sackbauer Skin">
+        <name>Kennedy Chan</name>
+        <country>USA</country>
+        <race_skill>0.951</race_skill>
+        <qualifying_skill>0.973</qualifying_skill>
+        <aggression>0.997</aggression>
+        <defending>0.9</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.738</start_reactions>
+        <tyre_management>0.865</tyre_management>
+        <fuel_management>0.797</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.977</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.946</vehicle_reliability>
+    </driver>
+    <driver livery_name="Laponi Racing #73">
+        <name>Butters Chan</name>
+        <country>USA</country>
+        <race_skill>0.978</race_skill>
+        <qualifying_skill>0.919</qualifying_skill>
+        <aggression>0.918</aggression>
+        <defending>0.964</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.93</start_reactions>
+        <tyre_management>0.519</tyre_management>
+        <fuel_management>0.8</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.546</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.929</vehicle_reliability>
+    </driver>
+    <driver livery_name="Ginetta G58 #1">
+        <name>Felix Rosenqvist</name>
+        <country>USA</country>
+        <race_skill>0.96</race_skill>
+        <qualifying_skill>0.959</qualifying_skill>
+        <aggression>0.954</aggression>
+        <defending>0.921</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.509</start_reactions>
+        <tyre_management>0.976</tyre_management>
+        <fuel_management>0.655</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.647</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.933</vehicle_reliability>
+    </driver>
+    <driver livery_name="Ginetta G58 #22">
+        <name>Danica Patrick</name>
+        <country>USA</country>
+        <race_skill>0.939</race_skill>
+        <qualifying_skill>0.923</qualifying_skill>
+        <aggression>0.98</aggression>
+        <defending>0.959</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.525</start_reactions>
+        <tyre_management>0.727</tyre_management>
+        <fuel_management>0.707</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.82</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.883</vehicle_reliability>
+    </driver>
+    <driver livery_name="Ginetta G58 #20">
+        <name>Christian Lundgaard</name>
+        <country>USA</country>
+        <race_skill>0.928</race_skill>
+        <qualifying_skill>0.914</qualifying_skill>
+        <aggression>0.966</aggression>
+        <defending>0.944</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.864</start_reactions>
+        <tyre_management>0.797</tyre_management>
+        <fuel_management>0.821</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.785</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.998</vehicle_reliability>
+    </driver>
+    <driver livery_name="Ginetta G58 #53">
+        <name>Dale Earnhardt Jr.</name>
+        <country>USA</country>
+        <race_skill>0.999</race_skill>
+        <qualifying_skill>0.984</qualifying_skill>
+        <aggression>0.984</aggression>
+        <defending>0.946</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.944</start_reactions>
+        <tyre_management>0.7</tyre_management>
+        <fuel_management>0.854</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.531</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.898</vehicle_reliability>
+    </driver>
+    <driver livery_name="Ginetta G58 #21">
+        <name>Tiny Chan</name>
+        <country>USA</country>
+        <race_skill>0.923</race_skill>
+        <qualifying_skill>0.984</qualifying_skill>
+        <aggression>0.921</aggression>
+        <defending>0.965</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.514</start_reactions>
+        <tyre_management>0.751</tyre_management>
+        <fuel_management>0.738</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.59</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.957</vehicle_reliability>
+    </driver>
+    <driver livery_name="Ginetta G58 #54">
+        <name>Kevin Harvik</name>
+        <country>USA</country>
+        <race_skill>0.938</race_skill>
+        <qualifying_skill>0.981</qualifying_skill>
+        <aggression>0.94</aggression>
+        <defending>0.929</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.878</start_reactions>
+        <tyre_management>0.861</tyre_management>
+        <fuel_management>0.979</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.625</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.902</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>George Russell</name>
+        <country>USA</country>
+        <race_skill>0.989</race_skill>
+        <qualifying_skill>0.991</qualifying_skill>
+        <aggression>0.963</aggression>
+        <defending>0.975</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.524</start_reactions>
+        <tyre_management>0.637</tyre_management>
+        <fuel_management>0.675</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.989</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
         <vehicle_reliability>0.811</vehicle_reliability>
     </driver>
-    <driver livery_name="Ginetta G58 #20">
-        <name>Danica Patrick</name>
+    <driver livery_name="">
+        <name>Dan Chau</name>
         <country>USA</country>
-        <race_skill>0.847</race_skill>
-        <qualifying_skill>0.816</qualifying_skill>
-        <aggression>0.866</aggression>
-        <defending>0.798</defending>
+        <race_skill>0.906</race_skill>
+        <qualifying_skill>0.964</qualifying_skill>
+        <aggression>0.919</aggression>
+        <defending>0.945</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.963</start_reactions>
-        <tyre_management>0.607</tyre_management>
-        <fuel_management>0.954</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.833</weather_tyre_changes>
+        <start_reactions>0.744</start_reactions>
+        <tyre_management>0.602</tyre_management>
+        <fuel_management>0.588</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.505</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.279</vehicle_reliability>
-    </driver>
-    <driver livery_name="Ginetta G58 #53">
-        <name>Jeff Gordon</name>
-        <country>USA</country>
-        <race_skill>0.535</race_skill>
-        <qualifying_skill>0.69</qualifying_skill>
-        <aggression>0.974</aggression>
-        <defending>0.521</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.548</start_reactions>
-        <tyre_management>0.945</tyre_management>
-        <fuel_management>0.85</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.56</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.972</vehicle_reliability>
-    </driver>
-    <driver livery_name="Ginetta G58 #21">
-        <name>Sam Chan</name>
-        <country>USA</country>
-        <race_skill>0.964</race_skill>
-        <qualifying_skill>0.945</qualifying_skill>
-        <aggression>0.734</aggression>
-        <defending>0.846</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.565</start_reactions>
-        <tyre_management>0.571</tyre_management>
-        <fuel_management>0.519</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.943</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.918</vehicle_reliability>
-    </driver>
-    <driver livery_name="Ginetta G58 #54">
-        <name>George Russell</name>
-        <country>USA</country>
-        <race_skill>0.532</race_skill>
-        <qualifying_skill>0.728</qualifying_skill>
-        <aggression>0.843</aggression>
-        <defending>0.923</defending>
-        <stamina>0.1</stamina>
-        <consistency>0.01</consistency>
-        <start_reactions>0.551</start_reactions>
-        <tyre_management>0.522</tyre_management>
-        <fuel_management>0.953</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.806</weather_tyre_changes>
-        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
-        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.584</vehicle_reliability>
+        <vehicle_reliability>0.911</vehicle_reliability>
     </driver>
     <driver livery_name="">
-        <name>Michael Andretti</name>
+        <name>Sergio Perez</name>
         <country>USA</country>
-        <race_skill>0.598</race_skill>
-        <qualifying_skill>0.602</qualifying_skill>
-        <aggression>0.665</aggression>
-        <defending>0.633</defending>
+        <race_skill>0.988</race_skill>
+        <qualifying_skill>0.968</qualifying_skill>
+        <aggression>0.981</aggression>
+        <defending>0.958</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.882</start_reactions>
-        <tyre_management>0.763</tyre_management>
-        <fuel_management>0.971</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.77</weather_tyre_changes>
+        <start_reactions>0.617</start_reactions>
+        <tyre_management>0.766</tyre_management>
+        <fuel_management>0.767</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.948</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.41</vehicle_reliability>
+        <vehicle_reliability>0.849</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Sam Chan</name>
+        <country>USA</country>
+        <race_skill>0.988</race_skill>
+        <qualifying_skill>0.909</qualifying_skill>
+        <aggression>0.987</aggression>
+        <defending>0.92</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.815</start_reactions>
+        <tyre_management>0.881</tyre_management>
+        <fuel_management>0.554</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.514</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.889</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Daniel Riccardo</name>
+        <country>USA</country>
+        <race_skill>0.974</race_skill>
+        <qualifying_skill>0.984</qualifying_skill>
+        <aggression>0.934</aggression>
+        <defending>0.971</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.703</start_reactions>
+        <tyre_management>0.985</tyre_management>
+        <fuel_management>0.574</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.575</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.945</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Brooks Robertson</name>
+        <country>USA</country>
+        <race_skill>0.892</race_skill>
+        <qualifying_skill>0.957</qualifying_skill>
+        <aggression>0.958</aggression>
+        <defending>0.891</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.697</start_reactions>
+        <tyre_management>0.737</tyre_management>
+        <fuel_management>0.966</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.581</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.885</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Romain Grosjean</name>
+        <country>USA</country>
+        <race_skill>0.916</race_skill>
+        <qualifying_skill>0.93</qualifying_skill>
+        <aggression>0.89</aggression>
+        <defending>0.904</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.765</start_reactions>
+        <tyre_management>0.905</tyre_management>
+        <fuel_management>0.856</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.608</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.821</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Scott McLaughlin</name>
+        <country>USA</country>
+        <race_skill>0.936</race_skill>
+        <qualifying_skill>0.944</qualifying_skill>
+        <aggression>0.901</aggression>
+        <defending>0.977</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.706</start_reactions>
+        <tyre_management>0.831</tyre_management>
+        <fuel_management>0.84</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.715</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.962</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Jeff Gordon</name>
+        <country>USA</country>
+        <race_skill>0.924</race_skill>
+        <qualifying_skill>0.998</qualifying_skill>
+        <aggression>0.929</aggression>
+        <defending>0.919</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.881</start_reactions>
+        <tyre_management>0.508</tyre_management>
+        <fuel_management>0.877</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.829</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.997</vehicle_reliability>
     </driver>
     <driver livery_name="">
         <name>Joe Montana</name>
         <country>USA</country>
-        <race_skill>0.701</race_skill>
-        <qualifying_skill>0.963</qualifying_skill>
-        <aggression>0.958</aggression>
-        <defending>0.825</defending>
+        <race_skill>0.982</race_skill>
+        <qualifying_skill>0.978</qualifying_skill>
+        <aggression>0.943</aggression>
+        <defending>0.976</defending>
         <stamina>0.1</stamina>
         <consistency>0.01</consistency>
-        <start_reactions>0.576</start_reactions>
-        <tyre_management>0.853</tyre_management>
-        <fuel_management>0.739</fuel_management>
-        <blue_flag_conceding>1</blue_flag_conceding>
-        <weather_tyre_changes>0.985</weather_tyre_changes>
+        <start_reactions>0.719</start_reactions>
+        <tyre_management>0.509</tyre_management>
+        <fuel_management>0.59</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.942</weather_tyre_changes>
         <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
         <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
-        <vehicle_reliability>0.564</vehicle_reliability>
+        <vehicle_reliability>0.862</vehicle_reliability>
+    </driver>
+    <driver livery_name="">
+        <name>Zhou Guanyu</name>
+        <country>USA</country>
+        <race_skill>0.998</race_skill>
+        <qualifying_skill>0.898</qualifying_skill>
+        <aggression>0.963</aggression>
+        <defending>0.906</defending>
+        <stamina>0.1</stamina>
+        <consistency>0.01</consistency>
+        <start_reactions>0.775</start_reactions>
+        <tyre_management>0.997</tyre_management>
+        <fuel_management>0.691</fuel_management>
+        <blue_flag_conceding>1000</blue_flag_conceding>
+        <weather_tyre_changes>0.774</weather_tyre_changes>
+        <avoidance_of_mistakes>0.1</avoidance_of_mistakes>
+        <avoidance_of_forced_mistakes>0.1</avoidance_of_forced_mistakes>
+        <vehicle_reliability>0.985</vehicle_reliability>
     </driver>
 </custom_ai_drivers>
