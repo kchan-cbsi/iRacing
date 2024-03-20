@@ -140,6 +140,20 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
             "Ginetta G58 #53",
             "Ginetta G58 #21",
             "Ginetta G58 #54",
+        ],
+        "LMDH" => [
+            "Porsche 963 #63",
+            "Porsche 963 #64",
+            "Porsche 963 #85",
+            "Porsche 963 #91",
+            "BMW M Hybrid V8 #24",
+            "BMW M Hybrid V8 #25",
+            "BMW M Hybrid V8 #42",
+            "BMW M Hybrid V8 #43",
+            "Cadillac V-Series.R #4",
+            "Cadillac V-Series.R #5",
+            "Cadillac V-Series.R #8",
+            "Cadillac V-Series.R #9"
         ]
     ];
 
@@ -229,7 +243,10 @@ function buildArr($crazy = false) {
         "Felix Rosenqvist",
         "Kyle Kirkwood",
         "Christian Lundgaard",
-        "Scott McLaughlin"
+        "Scott McLaughlin",
+        "William Byron",
+        "Tyler Reddick",
+        "Christopher Bell",
     ];
 
     shuffle($names);
