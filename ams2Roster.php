@@ -153,9 +153,38 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
             "Cadillac V-Series.R #4",
             "Cadillac V-Series.R #5",
             "Cadillac V-Series.R #8",
-            "Cadillac V-Series.R #9"
+            "Cadillac V-Series.R #9",
+            "Porsche 963 #63",
+            "Porsche 963 #64",
+            "Porsche 963 #85",
+            "Porsche 963 #91",
+            "BMW M Hybrid V8 #24",
+            "BMW M Hybrid V8 #25",
+            "BMW M Hybrid V8 #42",
+            "BMW M Hybrid V8 #43",
+            "Cadillac V-Series.R #4",
+            "Cadillac V-Series.R #5",
+            "Cadillac V-Series.R #8",
+            "Cadillac V-Series.R #9",
+            "Porsche 963 #63",
+            "Porsche 963 #64",
+            "Porsche 963 #85",
+            "Porsche 963 #91",
+            "BMW M Hybrid V8 #24",
+            "BMW M Hybrid V8 #25",
+            "BMW M Hybrid V8 #42",
+            "BMW M Hybrid V8 #43",
+            "Cadillac V-Series.R #4",
+            "Cadillac V-Series.R #5",
+            "Cadillac V-Series.R #8",
+            "Cadillac V-Series.R #9",
         ]
     ];
+
+
+    //in case we need to duplicate liveries
+    //we want to shuffle the liveries
+    shuffle($liveries[$carClass]);
 
     if ($driverNbr !== null && !empty($carClass)) {
                 $_xml->addAttribute('livery_name', $liveries[$carClass][$driverNbr]);
@@ -178,6 +207,10 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
                 $driverParts = explode("_", $k);
                 $k = 'driver';
                 $nbr = $driverParts[1];
+
+                if (empty($liveries[$carClass][$nbr])) {
+                    continue;
+                }
             }
 
             // Call function for nested array
@@ -195,7 +228,7 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
     return $_xml->asXML();
 }
 
-function buildArr($crazy = false) {
+function buildArr($crazy = false, $driverCount = 24) {
     $arr  = [];
     $names = [
         "Tony Stewart",
@@ -252,6 +285,10 @@ function buildArr($crazy = false) {
     shuffle($names);
 
     foreach($names as $i=>$name) {
+        if($i == $driverCount) {
+            break;
+        }
+
         $driver = "driver_" . $i;
         $temp = [
             "name"                         => $name,
@@ -295,6 +332,12 @@ if (empty($argv[2])) {
     $crazy = true;
 }
 
-$ai = buildArr($crazy);
+if (empty($argv[3])) {
+    $driverCount = 24;
+} else {
+    $driverCount = $argv[3];
+}
+
+$ai = buildArr($crazy, $driverCount);
 $string = arrayToXml($ai, '<custom_ai_drivers/>', null, null, $carClass);
 file_put_contents($carClass .".xml", $string);
