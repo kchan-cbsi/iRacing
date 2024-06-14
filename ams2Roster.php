@@ -240,7 +240,7 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
 
     //in case we need to duplicate liveries
     //we want to shuffle the liveries
-    shuffle($liveries[$carClass]);
+    //shuffle($liveries[$carClass]);
 
     if ($driverNbr !== null && !empty($carClass)) {
                 $_xml->addAttribute('livery_name', $liveries[$carClass][$driverNbr]);
@@ -249,6 +249,7 @@ function arrayToXml($array, $rootElement = null, $xml = null, $driverNbr = null,
     // If there is no Root Element then insert root
     if ($_xml === null) {
         shuffle($liveries[$carClass]);
+        sort($liveries[$carClass]);
         $_xml = new SimpleXMLElement($rootElement !== null ? $rootElement : '<root/>');
     }
 
